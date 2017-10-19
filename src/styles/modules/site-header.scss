@@ -1,0 +1,20 @@
+/*================ Site Header ================*/
+.cursor {
+  &::after {
+    content: '_';
+    display: inline;
+    line-height: inherit;
+    animation: blinking 1s infinite;
+    position: absolute;
+  }
+}
+
+@keyframes blinking {
+  0% {opacity: 0;}
+  50% { opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.flickity-page-dots {
+  position: relative;
+}

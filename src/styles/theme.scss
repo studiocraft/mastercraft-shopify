@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/*============================================================================
+  Mastercraft | Built with Slate
+    - You cannot use native CSS/Sass @imports in this file without a build script
+==============================================================================*/
+
+/*================ UTILS ================*/
+@import url('tools/mixins.scss');
+
+/*================ SETTINGS ================*/
+@import url('settings/variables.scss.liquid');
+
+/*================ COMMON ================*/
+@import url('global/normalize.scss');
+@import url('global/slate-reset.scss');
+@import url('global/helper-classes.scss');
+@import url('global/grid.scss');
+@import url('global/layout.scss');
+@import url('global/icons.scss');
+@import url('global/rte.scss');
+@import url('global/responsive-tables.scss');
+@import url('global/links-buttons.scss');
+@import url('global/forms.scss');
+@import url('global/blank-states.scss');
+
+/*================ MODULES ================*/
+@import url('modules/site-header.scss');
+@import url('modules/gift-card-template.scss');
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  text-align: left;
+  list-style: none;
+
+  &.show {
+    display: block;
+  }
+}
+.site-nav__submenu.dropdown-menu.show {
+  position: static;
+  float: none;
+  transform: translate3d(0, 0, 0 );
+}
+
+
+.collapse {
+  display: none;
+  &.show {
+    display: block;
+  }
+}
+
+tr {
+  &.collapse.show {
+    display: table-row;
+  }
+}
+
+tbody {
+  &.collapse.show {
+    display: table-row-group;
+  }
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+.site-nav__collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .15em;
+    vertical-align: .15em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid rgba(0, 0, 0, 0);
+    border-left: .3em solid rgba(0, 0, 0, 0);
+}
