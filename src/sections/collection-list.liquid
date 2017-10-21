@@ -1,6 +1,9 @@
-{% if section.settings.title != blank %}
-  <h2>{{ section.settings.title | escape }}</h2>
-{% endif %}
+<section class="ph3 ph4-m ph6-l pv5 pv6-l bg-white">
+  {% if section.settings.title != blank %}
+  <header class="wow animated fadeInDown">
+    <h2 class="f4 mb5 f3-ns lh-title normal">{{ section.settings.title | escape }}</h2>
+  </header>
+  {% endif %}
 
 {% for block in section.blocks limit: section.blocks.size %}
   <div {{ block.shopify_attributes }}>
@@ -26,7 +29,7 @@
     </a>
   </div>
 {% endfor %}
-
+</section>
 {% if section.blocks.size == 0 %}
   {% include 'no-blocks' %}
 {% endif %}

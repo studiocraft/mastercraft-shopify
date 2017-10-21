@@ -1,15 +1,16 @@
-<footer>
+<footer class="w-100 cf ph3 ph4-m ph6-l pv4 pv6-ns wow animated fadeInUp">
+<nav class="wow animated fadeIn">
 
   {%- assign social_accounts = 'Facebook, Twitter, Pinterest, Instagram, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
-  <ul>
+  <ul class="f4 list pa0 mv4 lh-copy">
     {% for social in social_accounts %}
       {%- assign social_handle = social | handleize -%}
       {% capture social_link %}social_{{ social_handle }}_link{% endcapture %}
       {% capture social_icon %}icon-{{ social_handle }}{% endcapture %}
 
       {% if settings[social_link] != blank %}
-        <li>
-          <a href="{{ settings[social_link] }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}">
+        <li class="dib mr2">
+          <a class="link underline-hover dark-gray b ttu" href="{{ settings[social_link] }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}">
             {% include social_icon %}
             <span class="icon-fallback-text">{{ social }}</span>
           </a>
@@ -18,6 +19,9 @@
 
     {% endfor %}
   </ul>
+
+</nav>
+
 
   {% if section.settings.show_payment_icons %}
     {% unless shop.enabled_payment_types == empty %}
@@ -40,15 +44,16 @@
 
   {%- assign footer_linklist = section.settings.footer_linklist -%}
   {% if linklists[footer_linklist].links.size > 0 %}
-    <ul>
+    <ul class="list pl0 lh-copy">
       {% for link in linklists[footer_linklist].links %}
-        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        <li class="dib mr2"><a class="link underline-hover dark-gray b ttu" href="{{ link.url }}">{{ link.title }}</a></li>
       {% endfor %}
     </ul>
   {% endif %}
 
   <div>
-    <small>{{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}.</small>
+    <small class="w-100 db mv2 lh-copy">Copyright<i class="fa fa-fw fa-copyright"></i>{{ 'layout.footer.copyright' | t }} {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. All rights reserved.</small>
+    <small class="w-100 db mv2 lh-copy">Made in Brooklyn, NY.</small>
   </div>
 </footer>
 

@@ -6,8 +6,65 @@
   {% endif %}
 </style>
 <div data-section-id="{{ section.id }}" data-section-type="header-section">
+
+  <nav class="site-tools fixed cf w-100 top ph3 ph4-m ph6-l pv5 pv6-n wow animated fadeIn" role="tools">
+
+    <form action="/search" method="get" role="search" class="fl">
+
+      <label for="Search" class="label-hidden">
+        {{ 'general.search.placeholder' | t }}
+      </label>
+      <button type="submit" class="btn underline-hover dark-gray b ttu bg-transparent">
+        {% include 'icon-search' %}
+        <span class="icon-fallback-text">{{ 'general.search.submit' | t }}</span>
+      </button>
+      <input type="search"
+             name="q"
+             id="Search"
+             value="{{ search.terms | escape }}"
+             placeholder="{{ 'general.search.placeholder' | t }}"
+             class="bg-transparent bn">
+    </form>
+
+    <ul class="fr list pa0 ma0 lh-copy">
+
+      {% if shop.customer_accounts_enabled %}
+      {% if customer %}
+      <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
+        {% if customer.first_name != blank %}
+          {% capture first_name %}<a class="link underline-hover dark-gray b ttu" href="/account">{{ customer.first_name }}</a>{% endcapture %}
+          {{ 'layout.customer.logged_in_as_html' | t: first_name: first_name }}
+        {% else %}
+          <a class="link underline-hover dark-gray b ttu" href="/account">{{ 'layout.customer.account' | t }}</a>
+        {% endif %}
+      </li>
+      <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
+        {{ 'layout.customer.log_out' | t | customer_logout_link }}
+      </li>
+      {% else %}
+      <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
+        {{ 'layout.customer.log_in' | t | customer_login_link }}
+      </li>
+      <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
+        {{ 'layout.customer.create_account' | t | customer_register_link }}
+      </li>
+      {% endif %}
+      {% endif %}
+
+      <li class="dib {% if link.active %}site-tool--active{% endif %}">
+        <a href="/cart" class="cart link underline-hover dark-gray b ttu">
+        {% include 'icon-cart' %}
+        {{ 'layout.cart.title' | t }}
+        ({{ cart.item_count }} {{ 'layout.cart.items_count' | t: count: cart.item_count }})
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+
   <header role="banner" class="w-100 vh-100 vh-75-ns dt ph3 ph4-m ph6-l pv5 pv6-ns bg-yellow">
     <center class="dtc v-mid tl">
+
       {% if template.name == 'index' %}
       <h1 class="cursor b ma0 f1 f-subheadline-m f-headline-l lh-title tracked-tight" itemscope itemtype="http://schema.org/Organization">
       {% else %}
@@ -43,10 +100,8 @@
           {%- assign child_list_handle = link.title | handleize -%}
           {% if menus[child_list_handle].links != blank %}
 
-            <li class="dropdown db fl-ns mr3 site-nav--has-submenu{% if link.active %} site-nav--active{% endif %}">
-              <a href="{{ link.url }}" class="site-nav__link dropdown-toggle link underline-hover dark-gray b ttu" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ link.title }}
-              </a>
+            <li class="dropdown nowrap db fl-ns mr3 site-nav--has-submenu{% if link.active %} site-nav--active{% endif %}">
+              <a href="{{ link.url }}" class="site-nav__link dropdown-toggle link underline-hover dark-gray b ttu" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
               <ul class="site-nav__submenu dropdown-menu absolute-ns list pa0 ma0 lh-copy" aria-labelledby="navbarDropdownMenuLink">
                 {% for childlink in menus[child_list_handle].links %}
                 <li class="nowrap {% if childlink.active %}site-nav--active{% endif %}">
@@ -56,62 +111,13 @@
               </ul>
             </li>
           {% else %}
-            <li class="db fl-ns mr3 {% if link.active %}site-nav--active{% endif %}">
+            <li class="nowrap db fl-ns mr3 {% if link.active %}site-nav--active{% endif %}">
               <a href="{{ link.url }}" class="site-nav__link link underline-hover dark-gray b ttu">{{ link.title }}</a>
             </li>
           {% endif %}
           {% endfor %}
-          <form action="/search" method="get" role="search" class="db fl-ns mr2">
-            <label for="Search" class="label-hidden">
-              {{ 'general.search.placeholder' | t }}
-            </label>
-            <button type="submit" class="btn underline-hover dark-gray b ttu bg-transparent">
-              {% include 'icon-search' %}
-              <span class="icon-fallback-text">{{ 'general.search.submit' | t }}</span>
-            </button>
-            <input type="search"
-                   name="q"
-                   id="Search"
-                   value="{{ search.terms | escape }}"
-                   placeholder="{{ 'general.search.placeholder' | t }}"
-                   class="bg-transparent bn">
-          </form>
-
-          <li class="db fr-ns {% if link.active %}site-nav--active{% endif %}">
-            <a href="/cart" class="cart link underline-hover dark-gray b ttu">
-              {% include 'icon-cart' %}
-              {{ 'layout.cart.title' | t }}
-              ({{ cart.item_count }} {{ 'layout.cart.items_count' | t: count: cart.item_count }})
-            </a>
-          </li>
-
         </ul>
       </nav>
-
-    {% if shop.customer_accounts_enabled %}
-      <ul>
-        {% if customer %}
-          <li>
-            {% if customer.first_name != blank %}
-              {% capture first_name %}<a href="/account">{{ customer.first_name }}</a>{% endcapture %}
-              {{ 'layout.customer.logged_in_as_html' | t: first_name: first_name }}
-            {% else %}
-              <a href="/account">{{ 'layout.customer.account' | t }}</a>
-            {% endif %}
-          </li>
-          <li>
-            {{ 'layout.customer.log_out' | t | customer_logout_link }}
-          </li>
-        {% else %}
-          <li>
-            {{ 'layout.customer.log_in' | t | customer_login_link }}
-          </li>
-          <li>
-            {{ 'layout.customer.create_account' | t | customer_register_link }}
-          </li>
-        {% endif %}
-      </ul>
-    {% endif %}
 
     </center>
   </header>
