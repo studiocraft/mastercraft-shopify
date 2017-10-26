@@ -1,0 +1,63 @@
+<style>
+  {% if section.settings.logo != blank %}
+    .site-header__logo-image {
+      max-width: {{ section.settings.logo_max_width }}px;
+    }
+  {% endif %}
+</style>
+<div data-section-id="{{ section.id }}" data-section-type="header-section">
+  <header role="banner" class="w-100 vh-100 vh-75-ns dt ph3 ph4-m ph6-l pv5 pv6-ns bg-yellow">
+    <center class="dtc v-mid tl">
+
+      {% if template.name == 'index' or template.name == 'password' %}
+      <h1 class="cursor b ma0 f1 f-subheadline-m f-headline-l lh-title tracked-tight" itemscope itemtype="http://schema.org/Organization">
+      {% else %}
+      <div class="cursor b ma0 f1 f-subheadline-m f-headline-l lh-title tracked-tight" itemscope itemtype="http://schema.org/Organization">
+      {% endif %}
+
+        <a href="/" itemprop="url" class="site-logo link no-underline dark-gray ttc{% if section.settings.logo != blank %} site-header__logo-image{% endif %}">
+
+        {% if section.settings.logo != blank %}
+        {% capture image_size %}{{ section.settings.logo_max_width }}x{% endcapture %}
+          <img src="{{ section.settings.logo | img_url: image_size }}"
+               srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+               alt="{{ section.settings.logo.alt | default: shop.name }}"
+               itemprop="logo">
+        {% else %}
+          {{ shop.name }}
+        {% endif %}
+
+        </a>
+
+      {% if template.name == 'index' %}
+      </h1>
+      {% else %}
+      </div>
+      {% endif %}
+
+    </center>
+  </header>
+</div>
+
+{% schema %}
+  {
+    "name": "Banner",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo image"
+      },
+      {
+        "type": "range",
+        "id": "logo_max_width",
+        "min": 50,
+        "max": 450,
+        "step": 10,
+        "unit": "px",
+        "label": "Custom logo width",
+        "default": 250
+      }
+    ]
+  }
+{% endschema %}

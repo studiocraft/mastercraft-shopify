@@ -1,0 +1,72 @@
+<div class="w-100 w-50-l fr" data-section-id="{{ section.id }}" data-section-type="tools-section">
+
+  <nav class="site-tools cf w-100 top ph3 ph4-m ph6-l pv3 wow animated fadeIn" role="tools">
+
+    <form action="/search" method="get" role="search" class="fl">
+
+      <label for="Search" class="label-hidden">
+        {{ 'general.search.placeholder' | t }}
+      </label>
+      <button type="submit" class="btn pa0 ma0 underline-hover dark-gray b ttu bg-transparent">
+        {% include 'icon-search' %}
+        <span class="icon-fallback-text">{{ 'general.search.submit' | t }}</span>
+      </button>
+      <input type="search"
+             name="q"
+             id="Search"
+             value="{{ search.terms | escape }}"
+             placeholder="{{ 'general.search.placeholder' | t }}"
+             class="bg-transparent bn">
+    </form>
+
+    <ul class="fr list pa0 ma0 lh-copy">
+
+      {% if shop.customer_accounts_enabled %}
+      {% if customer %}
+      <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
+        {% if customer.first_name != blank %}
+          {% capture first_name %}<a class="link underline-hover dark-gray b ttu" href="/account">{{ customer.first_name }}</a>{% endcapture %}
+          {{ 'layout.customer.logged_in_as_html' | t: first_name: first_name }}
+        {% else %}
+          <a class="link underline-hover dark-gray b ttu" href="/account">{{ 'layout.customer.account' | t }}</a>
+        {% endif %}
+      </li>
+      <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
+        {{ 'layout.customer.log_out' | t | customer_logout_link }}
+      </li>
+      {% else %}
+      <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
+        {{ 'layout.customer.log_in' | t | customer_login_link }}
+      </li>
+      <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
+        {{ 'layout.customer.create_account' | t | customer_register_link }}
+      </li>
+      {% endif %}
+      {% endif %}
+
+      <li class="dib {% if link.active %}site-tool--active{% endif %}">
+        <a href="/cart" class="cart link underline-hover dark-gray b ttu">
+        {% include 'icon-cart' %}
+        {{ 'layout.cart.title' | t }}
+        ({{ cart.item_count }} {{ 'layout.cart.items_count' | t: count: cart.item_count }})
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+</div>
+
+{% schema %}
+  {
+    "name": "Tools",
+    "class": "tools",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "menu_linklist",
+        "label": "Tools",
+        "default": "main-menu"
+      }
+    ]
+  }
+{% endschema %}
