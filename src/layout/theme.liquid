@@ -34,7 +34,7 @@
 
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
 
-  <link href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css" rel="stylesheet"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"/>
   <link href="https://unpkg.com/flickity@2.0/dist/flickity.min.css" rel="stylesheet">
 
@@ -85,9 +85,16 @@
 
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
-  {% section 'header' %}
-
+  <header class="fixed w-100 cf">
+    {% section 'site-menu' %}
+    {% section 'site-tools' %}
+  </header>
   <main role="main" id="MainContent" class="w-100">
+    {% if template.name == 'index' or template.name == 'password' %}
+    {% section 'banner' %}
+    {% else %}
+    {% include 'page-header' %}
+    {% endif %}
     {{ content_for_layout }}
   </main>
 
