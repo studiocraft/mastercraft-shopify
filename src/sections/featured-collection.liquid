@@ -1,5 +1,9 @@
+<section class="ph3 ph4-m ph6-l pv5 pv6-l bg-white">
+
 {% if section.settings.title != blank %}
-  <h2>{{ section.settings.title | escape }}</h2>
+<header class="wow animated fadeInDown">
+  <h2 class="f4 mb5 f3-ns lh-title normal">{{ section.settings.title | escape }}</h2>
+</header>
 {% endif %}
 
 {%- assign collection = collections[section.settings.collection] -%}
@@ -51,7 +55,7 @@
     <p>{{ 1999 | money }}</p>
   {% endfor %}
 {% endfor %}
-
+</section>
 {% schema %}
   {
     "name": "Featured collection",

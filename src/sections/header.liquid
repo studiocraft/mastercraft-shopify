@@ -29,6 +29,7 @@
     <ul class="fr list pa0 ma0 lh-copy">
 
       {% if shop.customer_accounts_enabled %}
+
       {% if customer %}
       <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
         {% if customer.first_name != blank %}
@@ -41,14 +42,21 @@
       <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
         {{ 'layout.customer.log_out' | t | customer_logout_link }}
       </li>
+
       {% else %}
+
       <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
-        {{ 'layout.customer.log_in' | t | customer_login_link }}
+        <a class="link underline-hover dark-gray b ttu" href="/account{% unless customer %}/login{% endunless %}">
+          {{ 'layout.customer.log_in' | t }}
+        </a>
       </li>
       <li class="dib mr3 {% if link.active %}site-tool--active{% endif %}">
-        {{ 'layout.customer.create_account' | t | customer_register_link }}
+        <a class="link underline-hover dark-gray b ttu" href="/account{% unless customer %}/register{% endunless %}">
+          {{ 'layout.customer.create_account' | t }}
+        </a>
       </li>
       {% endif %}
+
       {% endif %}
 
       <li class="dib {% if link.active %}site-tool--active{% endif %}">
