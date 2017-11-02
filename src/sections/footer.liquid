@@ -1,60 +1,64 @@
-<footer class="w-100 cf ph3 ph4-m ph6-l pv4 pv6-ns wow animated fadeInUp">
-<nav class="wow animated fadeIn">
+<footer role="footer" class="bg-white bn ba-l bw4-l b--white">
+  <section class="bg-white w-100 ma0 center">
+    <img class="db w-100 h7" src="https://source.unsplash.com/FabsEPIai38/1600x900" alt="Photo of the sea with mist covering the rocky formations near the shore.">
+  </section>
+  <section class="w-100 mw7 dt ma0 center">
+    <center class="dtc v-mid tl ph4 pv5 bg-white ba bw4 b--white" style="transform:translate3d(0,-50%,0)">
 
-  {%- assign social_accounts = 'Facebook, Twitter, Pinterest, Instagram, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
-  <ul class="f4 list pa0 mv4 lh-copy">
-    {% for social in social_accounts %}
-      {%- assign social_handle = social | handleize -%}
-      {% capture social_link %}social_{{ social_handle }}_link{% endcapture %}
-      {% capture social_icon %}icon-{{ social_handle }}{% endcapture %}
+      {%- assign social_accounts = 'Facebook, Twitter, Pinterest, Instagram, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
+      <ul class="f4 list pa0 mv4 lh-copy">
+        {% for social in social_accounts %}
+          {%- assign social_handle = social | handleize -%}
+          {% capture social_link %}social_{{ social_handle }}_link{% endcapture %}
+          {% capture social_icon %}icon-{{ social_handle }}{% endcapture %}
 
-      {% if settings[social_link] != blank %}
-        <li class="dib mr2">
-          <a class="link underline-hover dark-gray b ttu" href="{{ settings[social_link] }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}">
-            {% include social_icon %}
-            <span class="icon-fallback-text">{{ social }}</span>
-          </a>
-        </li>
-      {% endif %}
-
-    {% endfor %}
-  </ul>
-
-</nav>
-
-
-  {% if section.settings.show_payment_icons %}
-    {% unless shop.enabled_payment_types == empty %}
-      {%- assign payment_icons_available = 'amazon_payments,american_express,apple_pay,bitcoin,cirrus,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,jcb,litecoin,maestro,master,paypal,visa' | split: ',' -%}
-
-      <span class="visually-hidden">{{ 'layout.footer.payment_methods' | t }}</span>
-      <ul class="payment-icons">
-        {% for type in shop.enabled_payment_types %}
-          {% if payment_icons_available contains type %}
-            <li>
-              {%- assign icon_name = type | prepend: 'icon-' -%}
-              {% include icon_name %}
-              <span class="visually-hidden">{{ type | capitalize | replace: '_', ' ' }}</span>
+          {% if settings[social_link] != blank %}
+            <li class="dib mr2">
+              <a class="link underline-hover dark-gray b ttu" href="{{ settings[social_link] }}" title="{{ 'layout.footer.social_platform' | t: name: shop.name, platform: social }}">
+                {% include social_icon %}
+                <span class="icon-fallback-text">{{ social }}</span>
+              </a>
             </li>
           {% endif %}
+
         {% endfor %}
       </ul>
-    {% endunless %}
-  {% endif %}
 
-  {%- assign footer_linklist = section.settings.footer_linklist -%}
-  {% if linklists[footer_linklist].links.size > 0 %}
-    <ul class="list pl0 lh-copy">
-      {% for link in linklists[footer_linklist].links %}
-        <li class="dib mr2"><a class="link underline-hover dark-gray b ttu" href="{{ link.url }}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+      {% if section.settings.show_payment_icons %}
+        {% unless shop.enabled_payment_types == empty %}
+          {%- assign payment_icons_available = 'amazon_payments,american_express,apple_pay,bitcoin,cirrus,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,jcb,litecoin,maestro,master,paypal,visa' | split: ',' -%}
 
-  <div>
-    <small class="w-100 db mv2 lh-copy">Copyright<i class="fa fa-fw fa-copyright"></i>{{ 'layout.footer.copyright' | t }} {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. All rights reserved.</small>
-    <small class="w-100 db mv2 lh-copy">Made in Brooklyn, NY.</small>
-  </div>
+          <span class="visually-hidden">{{ 'layout.footer.payment_methods' | t }}</span>
+          <ul class="payment-icons">
+            {% for type in shop.enabled_payment_types %}
+              {% if payment_icons_available contains type %}
+                <li>
+                  {%- assign icon_name = type | prepend: 'icon-' -%}
+                  {% include icon_name %}
+                  <span class="visually-hidden">{{ type | capitalize | replace: '_', ' ' }}</span>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endunless %}
+      {% endif %}
+
+      {%- assign footer_linklist = section.settings.footer_linklist -%}
+      {% if linklists[footer_linklist].links.size > 0 %}
+        <ul class="list pl0 lh-copy">
+          {% for link in linklists[footer_linklist].links %}
+            <li class="dib mr2"><a class="link underline-hover dark-gray b ttu" href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <div>
+        <small class="w-100 db mv2 lh-copy">Copyright<i class="fa fa-fw fa-copyright"></i>{{ 'layout.footer.copyright' | t }} {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. All rights reserved.</small>
+        <small class="w-100 db mv2 lh-copy">Made in Brooklyn, NY.</small>
+      </div>
+
+    </center>
+  </section>
 </footer>
 
 {% schema %}

@@ -1,0 +1,47 @@
+<div class="w-100 w-50-l fl" data-section-id="{{ section.id }}" data-section-type="menu-section">
+
+  <nav class="site-nav w-100 top ph4 pv3 wow animated fadeIn" role="navigation">
+    <button class="btn db dn-ns underline-hover dark-gray b ttu bg-transparent" type="button" data-toggle="collapse" data-target="#siteNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      {% include 'icon-hamburger' %}
+    </button>
+
+    <ul class="site-nav__collapse flex-ns collapse cf list pa0 ma0 lh-copy" id="main-menu">
+
+      {% for link in linklists[section.settings.menu_linklist].links %}
+      {%- assign child_list_handle = link.title | handleize -%}
+      {% if menus[child_list_handle].links != blank %}
+
+        <li class="dropdown nowrap db fl-ns mr3 site-nav--has-submenu{% if link.active %} site-nav--active{% endif %}">
+          <a href="{{ link.url }}" class="site-nav__link dropdown-toggle link underline-hover dark-gray b ttu" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
+          <ul class="site-nav__submenu dropdown-menu absolute-ns list pa0 ma0 lh-copy" aria-labelledby="navbarDropdownMenuLink">
+            {% for childlink in menus[child_list_handle].links %}
+            <li class="nowrap {% if childlink.active %}site-nav--active{% endif %}">
+              <a href="{{ childlink.url }}" class="site-nav__link link underline-hover dark-gray b ttu">{{ childlink.title | escape }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% else %}
+        <li class="nowrap db fl-ns mr3 {% if link.active %}site-nav--active{% endif %}">
+          <a href="{{ link.url }}" class="site-nav__link link underline-hover dark-gray b ttu">{{ link.title }}</a>
+        </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
+
+{% schema %}
+  {
+    "name": "Menu",
+    "class": "menu",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "menu_linklist",
+        "label": "Menu",
+        "default": "main-menu"
+      }
+    ]
+  }
+{% endschema %}

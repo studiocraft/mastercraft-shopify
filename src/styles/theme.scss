@@ -95,3 +95,7 @@ tbody {
   border-right: .3em solid rgba(0, 0, 0, 0);
   border-left: .3em solid rgba(0, 0, 0, 0);
 }
+
+[data-headroom="nav"] {
+  transform: translate(-100%, 0); 
+}

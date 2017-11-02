@@ -1,0 +1,35 @@
+<div data-section-id="{{ section.id }}" data-section-type="blockquote-section">
+  <section class="bg-white bn ba-l bw4-l b--white">
+    <blockquote class="z-max w-100 mw7 dt ma0 center bg-white ba bw4 b--white" style="transform:translate3d(0,50%,0)">
+      <center class="dtc v-mid tl ph4 pv5">
+
+        {% if section.settings.quote != blank %}
+        <span class="mw7 normal f3 f2-ns lh-title">{{ section.settings.quote | escape }}</span>
+        </header>
+        {% endif %}
+
+      </center>
+    </blockquote>
+  </section>
+  <figure class="bg-white w-100 ma0 center bn ba-l bw4-l b--white">
+    <img class="db w-100 h7" src="https://source.unsplash.com/3ChXTytXDUI/1600x540" alt="Photo of the sea with mist covering the rocky formations near the shore.">
+  </figure>
+</div>
+{% schema %}
+  {
+    "name": "Blockquote",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "quote",
+        "label": "Quote",
+        "default": "Impactful design for authentic brands and original people."
+      },
+      {
+        "type": "image_picker",
+        "id": "blockquote-img",
+        "label": "Figure"
+      }
+    ]
+  }
+{% endschema %}

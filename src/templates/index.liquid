@@ -1,1 +1,32 @@
 {{ content_for_index }}
+<center class="flex flex-wrap">
+{% for service in page.services limit:3 %}
+  <article class="items-stretch ma0 w-100 tl ph4 pv5 bg-animate bg-{% cycle 'near-white', 'light-gray' %}">
+    <header class="db w-100 wow animated fadeInUp">
+    <a class="dib no-underline hover-dark-pink dark-gray ttu" href="{{ site.baseurl }}/{{  service.name | slugify | remove: '-amp' }}.html">
+      <h1 class="mv2 f4 f3-ns lh-title">{{ service.name }}</h1>
+    </a>
+    </header>
+    <p class="measure lh-copy wow animated fadeIn">{{ service.description }}</p>
+    <a class="dib link dark-pink underline-hover b ttu" href="{{ site.baseurl }}/{{  service.name | slugify | remove: '-amp' }}.html">More<i class="fa fa-fw fa-long-arrow-right"></i></a>
+  </article>
+{% endfor %}
+</center>
+
+
+{% schema %}
+  {
+    "name": "Services",
+    "settings": [
+      {
+        "type": "text",
+        "id": "branding-strategy",
+        "label": "Title",
+        "default": "We focus on design and technology as a broader approach to user experience,
+          product performance and consumer perception. A website is a necessary tool for
+          nearly every business and organization. Our interactive design approach focuses
+          on usability, impact, and achieving results."
+      }
+    ]
+  }
+{% endschema %}
