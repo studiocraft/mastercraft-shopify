@@ -85,18 +85,21 @@
 
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
-  <header class="w-100 bg-white z-max cf bn ba-l bw4-l b--transparent" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+  <header class="fixed w-100 bg-white z-max cf bn ba-l bw4-l b--transparent" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
     {% section 'site-menu' %}
     {% section 'site-tools' %}
   </header>
   <main role="main" id="MainContent" class="w-100">
     {% if template.name == 'index' %}
-    {% section 'banner' %}
-    {% section 'blockquote' %}
-    {% else %}
-    {% include 'page-header' %}
+      {% section 'banner' %}
+      {% elsif template contains 'collection' and collection.handle %}
+      {% include 'collection-header' %}
+      {% else %}
+      {% include 'page-header' %}
     {% endif %}
     {{ content_for_layout }}
+    {% section 'blockquote' %}
+
     <section class="bg-light-green mw7 ma0 center ba bw4 b--white">
       <center class="db ph4 pv5">
         <h1 class="f3 f2-nslh-title measure normal">Ready to Work With Us?</h1>
@@ -104,6 +107,7 @@
         <a class="no-underline br-pill ba bw1 ph4 pv3 dib mid-gray hover-light-red b ttu tracked" href="{{ site.baseurl }}/about.html">No</a>
       </center>
     </section>
+
     <section class="dt-ns w-100 near-white bg-near-black center bn ba-l bw4-l b--white" id="location">
       <center class="db dtc-ns ph4 ph5-l pv5 pv6-l">
         <h2 class="cursor f4 f3-ns mv0 lh-title tracked-tight wow animated fadeInDown">{{ shop.name }}</h2>
