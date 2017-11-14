@@ -1,59 +1,75 @@
-<div class="w-100 w-50-l fr wow animated fadeInRight" data-section-id="{{ section.id }}" data-section-type="tools-section">
+<div class="items-stretch wow animated fadeInRight" data-section-id="{{ section.id }}" data-section-type="tools-section">
 
-  <center class="site-tools flex flex-wrap w-100" role="tools">
+  <center class="site-tools flex flex-wrap items-baseline justify-between" role="tools">
 
-    <form action="/search" method="get" role="search" class="items-stretch w-100 w-50-l">
+    <form action="/search" method="get" role="search" class="w-100 dn-ns w-auto-ns">
 
       <label for="Search" class="label-hidden">
         {{ 'general.search.placeholder' | t }}
       </label>
-      <button type="submit" class="btn pa0 ma0 underline-hover dark-gray b ttu bg-transparent">
-        {% include 'icon-search' %}
-        <span class="icon-fallback-text">{{ 'general.search.submit' | t }}</span>
-      </button>
+
       <input type="search"
              name="q"
              id="Search"
              value="{{ search.terms | escape }}"
              placeholder="{{ 'general.search.placeholder' | t }}"
-             class="input-reset br-pill ba bw1 b--near-white ma0 ph4 pv3 dib dark-gray">
+             class="input-reset db dib-ns w-100 w-auto-ns br-pill ba bw1 b--near-white ma0 ph4 pv3 dark-gray">
+        <button type="submit" class="input-reset ma0 lh-title bg-white-10 no-underline br-pill ba bw1 b--inherit ph4 pv3 dib dark-gray hover-dark-blue b ttu tracked">
+          {% include 'icon-search' %}
+          <span class="icon-fallback-text">{{ 'general.search.submit' | t }}</span>
+       </button>
     </form>
 
-    <ul class="items-stretch w-100 w-50-l list pa0 ma0 lh-copy">
+    <ul class="cart-nav__collapse db w-100 w-auto-ns flex-ns collapse list ma0 pa0 lh-copy" id="">
 
-      {% if shop.customer_accounts_enabled %}
-      {% if customer %}
-      <li class="dib mr2{% if link.active %} site-tool--active{% endif %}">
-        {% if customer.first_name != blank %}
-          {% capture first_name %}<a class="link underline-hover dark-gray b ttu" href="/account">{{ customer.first_name }}</a>{% endcapture %}
-          {{ 'layout.customer.logged_in_as_html' | t: first_name: first_name }}
-        {% else %}
-          <a class="link underline-hover dark-gray b ttu" href="/account">{{ 'layout.customer.account' | t }}</a>
-        {% endif %}
-      </li>
-      <li class="dib mr2{% if link.active %} site-tool--active{% endif %}">
-        {{ 'layout.customer.log_out' | t | customer_logout_link }}
-      </li>
-      {% else %}
-      <li class="dib mr2{% if link.active %} site-tool--active{% endif %}">
-        {{ 'layout.customer.log_in' | t | customer_login_link }}
-      </li>
-      <li class="dib mr2{% if link.active %} site-tool--active{% endif %}">
-        {{ 'layout.customer.create_account' | t | customer_register_link }}
-      </li>
-      {% endif %}
-      {% endif %}
-
-      <li class="dib {% if link.active %}site-tool--active{% endif %}">
-        <a href="/cart" class="cart link underline-hover dark-gray b ttu">
-        {% include 'icon-cart' %}
-        {{ 'layout.cart.title' | t }}
-        ({{ cart.item_count }} {{ 'layout.cart.items_count' | t: count: cart.item_count }})
+      <!-- Seach Toggle -->
+      <li class="{% if link.active %}site-tool--active{% endif %}dn db-ns nowrap mh3-ns w-100 w-auto-ns">
+        <a href="#" class="link underline-hover dark-gray b ttu">
+        {% include 'icon-search' %}{{ 'general.search.submit' | t }}
         </a>
       </li>
+
+      <!-- Cart -->
+      <li class="{% if link.active %}site-tool--active{% endif %} nowrap mh3-ns w-100 w-auto-ns">
+        <a href="/cart" class="cart link underline-hover dark-gray b ttu">
+        {% include 'icon-cart' %}{{ 'layout.cart.title' | t }}
+
+        {% if cart.item_count != 0 %}
+          ({{ cart.item_count }} {{ 'layout.cart.items_count' | t: count: cart.item_count }})
+        {% endif %}
+        </a>
+      </li>
+
+      {% if shop.customer_accounts_enabled %}
+        {% if customer %}
+        <li class="{% if link.active %} site-tool--active{% endif %} nowrap mh3-ns w-100 w-auto-ns">
+          {% if customer.first_name != blank %}
+            {% capture first_name %}<a class="link underline-hover dark-gray b ttu" href="/account">{{ customer.first_name }}</a>{% endcapture %}
+            {{ 'layout.customer.logged_in_as_html' | t: first_name: first_name }}
+          {% else %}
+            <a class="link underline-hover dark-gray b ttu" href="/account">{{ 'layout.customer.account' | t }}</a>
+          {% endif %}
+        </li>
+
+        <li class="{% if link.active %}site-tool--active{% endif %} nowrap mh3-ns w-100 w-auto-ns">
+          {{ 'layout.customer.log_out' | t | customer_logout_link | replace: 'href', 'class="link underline-hover dark-gray b ttu" href' }}
+        </li>
+        {% else %}
+
+        <li class="{% if link.active %}site-tool--active{% endif %} nowrap mh3-ns w-100 w-auto-ns">
+          {{ 'layout.customer.log_in' | t | customer_login_link | replace: 'href', 'class="link underline-hover dark-gray b ttu" href' }}
+        </li>
+
+        <li class="{% if link.active %}site-tool--active{% endif %} nowrap mh3-ns w-100 w-auto-ns">
+          {{ 'layout.customer.create_account' | t | customer_register_link | replace: 'href', 'class="link underline-hover dark-gray b ttu" href' }}
+        </li>
+        {% endif %}
+      {% endif %}
+
     </ul>
 
   </center>
+
 </div>
 
 {% schema %}
