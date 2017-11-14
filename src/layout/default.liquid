@@ -1,0 +1,19 @@
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js supports-no-cookies" lang="{{ shop.locale }}"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js supports-no-cookies tk-proxima-nova" lang="{{ shop.locale }}"> <!--<![endif]-->
+<head>
+{% include 'head' %}
+{{ content_for_header }}
+</head>
+
+</head>
+<body id="{{ page_title | handle }}" class="template-{{ template.name | handle }} w-100 dark-gray">
+
+  <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+  {{ content_for_layout }}
+
+  {% section 'footer' %}
+
+</body>
+</html>
