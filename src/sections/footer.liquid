@@ -53,7 +53,7 @@
       {% endif %}
 
       <div>
-        <small class="w-100 db mv2 lh-copy">Copyright<i class="fa fa-fw fa-copyright"></i>{{ 'layout.footer.copyright' | t }} {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: '/' }}. All rights reserved.</small>
+        <span class="w-100 db mv2 lh-copy">{{ 'layout.footer.copyright' | t }}<i class="fa fa-fw fa-copyright"></i>{{ 'now' | date: "%Y" }} - <a href="{{ shop.domain }}" class="link dark-gray no-underline underline-hover">{{ shop.name }}</a>. All rights reserved.</span>
         <small class="w-100 db mv2 lh-copy">Made in Brooklyn, NY.</small>
       </div>
 
