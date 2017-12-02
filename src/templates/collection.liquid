@@ -1,30 +1,20 @@
 {% paginate collection.products by 12 %}
-  <header role="banner">
-    <h1>{{ collection.title }}</h1>
-    {% if collection.description != blank %}
-      <div class="rte">
-        {{ collection.description }}
-      </div>
-    {% endif %}
-
+  <div>
     {% if collection.all_tags.size > 0 %}
-      <ul>
+      <ul class="list pa0 mv4 lh-copy">
         {% for tag in collection.all_tags %}
           {% if current_tags contains tag %}
-            <li class="active">
+            <li class="dib mr2 active">
               {{ tag | link_to_remove_tag: tag }}
             </li>
           {% else %}
-            <li>
+            <li class="dib mr2">
               {{ tag | link_to_tag: tag }}
             </li>
           {% endif %}
         {% endfor %}
       </ul>
     {% endif %}
-  </header>
-
-  <div>
     {% for product in collection.products %}
       <div>
         {% if product.featured_image != blank %}
@@ -78,7 +68,7 @@
           </a>
 
           <p>
-            <a href="#">{{ 'homepage.onboarding.product_title' | t }}</a>
+            <a href="#" class="link b dark-gray ttu">{{ 'homepage.onboarding.product_title' | t }}</a>
           </p>
 
           <p>

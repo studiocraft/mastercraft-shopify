@@ -1,9 +1,6 @@
 <footer role="footer" class="bg-white bn ba-l bw4-l b--white">
-  <section class="bg-white w-100 ma0 center">
-    <img class="db w-100 h7" src="https://source.unsplash.com/FabsEPIai38/1600x900" alt="Photo of the sea with mist covering the rocky formations near the shore.">
-  </section>
-  <section class="w-100 mw7 dt ma0 center">
-    <center class="dtc v-mid tl ph4 pv5 ba bw4 b--white">
+  <section class="w-100 dt ma0 center">
+    <center class="dtc v-mid tl ph4 pv5">
 
       {%- assign social_accounts = 'Facebook, Twitter, Pinterest, Instagram, Snapchat, Tumblr, YouTube, Vimeo,' | split: ', ' -%}
       <ul class="f4 list pa0 mv4 lh-copy">
@@ -59,6 +56,10 @@
 
     </center>
   </section>
+
+  {% include 'breadcrumbs' %}
+
+
 </footer>
 
 {% schema %}
@@ -75,6 +76,12 @@
         "type": "checkbox",
         "id": "show_payment_icons",
         "label": "Show payment icons",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "share",
+        "label": "Share on Social",
         "default": false
       }
     ]

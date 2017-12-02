@@ -1,8 +1,9 @@
 <div class="items-stretch wow animated fadeInRight" data-section-id="{{ section.id }}" data-section-type="tools-section">
 
-  <center class="site-tools flex flex-wrap items-baseline justify-between" role="tools">
+<center class="site-tools flex flex-wrap items-baseline justify-between" role="tools">
 
-    <form action="/search" method="get" role="search" class="w-100 dn-ns w-auto-ns">
+  {% if section.settings.search == 'input' %}
+  <form action="/search" method="get" role="search" class="w-100 w-auto-ns">
 
       <label for="Search" class="label-hidden">
         {{ 'general.search.placeholder' | t }}
@@ -14,33 +15,50 @@
              value="{{ search.terms | escape }}"
              placeholder="{{ 'general.search.placeholder' | t }}"
              class="input-reset db dib-ns w-100 w-auto-ns br-pill ba bw1 b--near-white ma0 ph4 pv3 dark-gray">
-        <button type="submit" class="input-reset ma0 lh-title bg-white-10 no-underline br-pill ba bw1 b--inherit ph4 pv3 dib dark-gray hover-dark-blue b ttu tracked">
-          {% include 'icon-search' %}
+        <button type="submit" class="input-reset ma0 lh-title bg-white no-underline bn dark-gray hover-dark-blue b ttu tracked">
+          <i class="fa fa-search" aria-hidden="true"></i>
           <span class="icon-fallback-text">{{ 'general.search.submit' | t }}</span>
        </button>
     </form>
+    {% endif %}
 
-    <ul class="cart-nav__collapse db w-100 w-auto-ns flex-ns collapse list ma0 pa0 lh-copy" id="">
+  <ul class="cart-nav__collapse db w-100 w-auto-ns flex-ns collapse list ma0 pa0 lh-copy" id="">
 
-      <!-- Seach Toggle -->
-      <li class="{% if link.active %}site-tool--active{% endif %}dn db-ns nowrap mh3-ns w-100 w-auto-ns">
-        <a href="#" class="link underline-hover dark-gray b ttu">
-        {% include 'icon-search' %}{{ 'general.search.submit' | t }}
-        </a>
-      </li>
+    <!-- Search Toggle -->
+    {% if section.settings.search == 'toggle' %}
+    <li class="{% if link.active %}site-tool--active{% endif %} nowrap mh3-ns w-100 w-auto-ns">
+      <a href="#" class="link underline-hover dark-gray b ttu">
+      <i class="fa fa-search" aria-hidden="true"></i>
+      <span class="icon-fallback-text">{{ 'general.search.submit' | t }}</span>
+      </a>
+    </li>
+    {% endif %}
 
-      <!-- Cart -->
-      <li class="{% if link.active %}site-tool--active{% endif %} nowrap mh3-ns w-100 w-auto-ns">
-        <a href="/cart" class="cart link underline-hover dark-gray b ttu">
-        {% include 'icon-cart' %}{{ 'layout.cart.title' | t }}
+    <!-- Cart -->
+    {% if section.settings.cart != false %}
+    <li class="{% if link.active %}site-tool--active{% endif %} nowrap mh3-ns w-100 w-auto-ns">
+      <a href="/cart" class="cart link underline-hover dark-gray b ttu">
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <span class="icon-fallback-text">{{ 'layout.cart.title' | t }}</span>
 
         {% if cart.item_count != 0 %}
           ({{ cart.item_count }} {{ 'layout.cart.items_count' | t: count: cart.item_count }})
         {% endif %}
-        </a>
-      </li>
+      </a>
+    </li>
+    {% endif %}
 
-      {% if shop.customer_accounts_enabled %}
+    <!-- Customer Account -->
+
+    {% if shop.customer_accounts_enabled %}
+    <li class="dropdown nowrap mh3-ns w-100 w-auto-ns">
+
+      <a href="#" class="dropdown-toggle link underline-hover dark-gray b ttu" id="accountDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-user-circle" aria-hidden="true"></i>
+      <span class="icon-fallback-text">{{ 'layout.customer.account' | t }}</span>
+      </a>
+
+      <ul class="site-tools__submenu dropdown-menu absolute-ns bg-white bn ba-l bw4-l b--white list pa0 ma0 lh-copy" aria-labelledby="accountDropdownMenuLink">
         {% if customer %}
         <li class="{% if link.active %} site-tool--active{% endif %} nowrap mh3-ns w-100 w-auto-ns">
           {% if customer.first_name != blank %}
@@ -64,11 +82,14 @@
           {{ 'layout.customer.create_account' | t | customer_register_link | replace: 'href', 'class="link underline-hover dark-gray b ttu" href' }}
         </li>
         {% endif %}
-      {% endif %}
+      </ul>
 
-    </ul>
+    </li>
+    {% endif %}
 
-  </center>
+  </ul>
+
+</center>
 
 </div>
 
@@ -78,11 +99,22 @@
     "class": "tools",
     "settings": [
       {
+        "type": "radio",
+        "id": "search",
+        "options": [
+          { "value": "toggle", "label": "Search Toggle" },
+          { "value": "input", "label": "Search Input" }
+        ],
+        "default":   "toggle",
+        "label": "Search UI Option",
+        "info": "Set the type of interface for search."
+      },
+      {
         "type": "checkbox",
-        "id": "menu_linklist",
-        "label": "Search",
+        "id": "cart",
+        "label": "Cart",
         "default": true,
-        "info": "Include Search Input"
+        "info": "Include Cart Icon"
       }
     ]
   }

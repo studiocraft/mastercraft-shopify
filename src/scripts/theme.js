@@ -37,4 +37,26 @@ $(document).ready(function() {
   if (slate.cart.cookiesEnabled()) {
     document.documentElement.className = document.documentElement.className.replace('supports-no-cookies', 'supports-cookies');
   }
+
+  var $modal = $('#Modal');
+
+  $('#TriggerModal').on('click', function() {
+    $modal.addClass('is-active');
+
+    slate.a11y.trapFocus({
+      $container: $modal,
+      namespace: 'modal',
+      $elementToFocus: $modal.find('input[type="text"]')
+    });
+  });
+
+  $('#CloseModal').on('click', function() {
+    $modal.removeClass('is-active');
+
+    slate.a11y.removeTrapFocus({
+      $container: $modal,
+      namespace: 'modal'
+    });
+  });
+
 });

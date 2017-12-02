@@ -14,7 +14,14 @@
 
         <li class="site-nav--has-submenu{% if link.active %} site-nav--active{% endif %} dropdown nowrap mh3-ns w-100 w-auto-ns">
 
-          <a href="{{ link.url }}" class="site-nav__link dropdown-toggle link underline-hover dark-gray b ttu" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
+          <a href="{{ link.url }}" class="site-nav__link dropdown-toggle link underline-hover dark-gray b ttu" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ link.title }}
+            {% if link.focus %}
+            <i class="fa fa-caret-up" aria-hidden="true"></i>
+            {% else %}
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+            {% endif %}
+          </a>
 
           <ul class="site-nav__submenu dropdown-menu absolute-ns bg-white bn ba-l bw4-l b--white list pa0 ma0 lh-copy" aria-labelledby="navbarDropdownMenuLink">
             {% for childlink in menus[child_list_handle].links %}
@@ -37,7 +44,7 @@
 
 {% schema %}
   {
-    "name": "Menu",
+    "name": "Menu Links",
     "class": "menu",
     "settings": [
       {

@@ -1,0 +1,23 @@
+<header class="z-max fixed top bg-white ba bw4 b--white w-100 flex flex-wrap justify-between items-baseline">
+{% if template.name == 'password' %}
+  <div class="items-stretch wow animated fadeInRight">
+
+    <center class="flex flex-wrap items-baseline justify-between" role="tools">
+
+      <ul class="db w-100 w-auto-ns flex-ns collapse list ma0 pa0 lh-copy" id="">
+
+        <!-- Password Toggle -->
+        <li class="{% if link.active %}site-tool--active{% endif %}dn db-ns nowrap mh3-ns w-100 w-auto-ns">
+          <a href="#" class="link underline-hover dark-gray b ttu">
+          <i class="fa fa-fw fa-lock" aria-hidden="true"></i>
+          <span class="icon-fallback-text">{{ 'general.password_page.login_form_password_label' | t }}</span>
+          </a>
+        </li>
+      </ul>
+    </center>
+  </div>
+{% else %}
+{% section 'site-menu' %}
+{% section 'site-tools' %}
+{% endif %}
+</header>

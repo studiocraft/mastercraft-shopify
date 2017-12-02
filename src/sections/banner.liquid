@@ -1,13 +1,15 @@
-<style>
-  {% if section.settings.logo != blank %}
-    .site-header__logo-image {
-      max-width: {{ section.settings.logo_max_width }}px;
-    }
-  {% endif %}
-</style>
 <div data-section-id="{{ section.id }}" data-section-type="header-section">
   <header role="banner" class="bg-yellow bn ba-l bw4-l b--white">
-    <section class="w-100 vh-100 vh-75-l mw7 dt ma0 center">
+    {% if section.settings.share == true %}
+      {% if settings.share_facebook or settings.share_twitter or settings.share_pinterest %}
+      <center class="bg-light-green w-100 dt ma0 center">
+        <div class="dtc v-mid tl ph4 pv5">
+        {% include 'social-sharing' %}
+        </div>
+      </center>
+      {% endif %}
+    {% endif %}
+    <section class="w-100 vh-100 vh-75-l dt ma0 center">
       <center class="dtc v-mid tl ph4 pv5">
 
         {% if template.name == 'index' or template.name == 'password' %}
@@ -37,7 +39,13 @@
         {% else %}
         </div>
         {% endif %}
-        <h2 class="normal f3 f2-ns lh-title">An independent design studio and shop.</h2>
+
+        {% if template.name == 'password' %}
+        <h2 class="b ma0 f3 f2-m f1-l lh-title tracked-tight">{{ 'general.password_page.opening_soon' | t }}</h2>
+        {% else %}
+        <h2 class="normal f3 f2-ns lh-title">{{ section.settings.quote | escape }}</h2>
+        {% endif %}
+
         <address class="fs-normal wow animated fadeInUp">
           <ul class="list pa0 mv4 lh-copy">
             <li class="dib mr2"><a class="link underline-hover dark-gray" href="mailto:hello@studiocraft.cc"><abbr title="Email"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i></abbr>hello@studiocraft.cc</a></li>
@@ -55,19 +63,10 @@
     "name": "Banner",
     "settings": [
       {
-        "type": "image_picker",
-        "id": "logo",
-        "label": "Logo image"
-      },
-      {
-        "type": "range",
-        "id": "logo_max_width",
-        "min": 50,
-        "max": 450,
-        "step": 10,
-        "unit": "px",
-        "label": "Custom logo width",
-        "default": 250
+        "type": "textarea",
+        "id": "quote",
+        "label": "Quote",
+        "default": "An independent design studio and shop."
       }
     ]
   }

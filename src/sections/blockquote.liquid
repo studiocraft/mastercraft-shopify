@@ -1,11 +1,10 @@
-<div data-section-id="{{ section.id }}" data-section-type="blockquote-section">
+<div data-section-id="{{ section.id }}" data-section-type="blockquote">
   <section class="bg-white bn ba-l bw4-l b--white">
     <blockquote class="w-100 mw7 dt ma0 center">
       <center class="dtc v-mid tl ph4 pv5">
 
         {% if section.settings.quote != blank %}
         <span class="mw7 normal f3 f2-ns lh-title">{{ section.settings.quote | escape }}</span>
-        </header>
         {% endif %}
 
       </center>
@@ -15,6 +14,7 @@
     <img class="db w-100 h7" src="https://source.unsplash.com/3ChXTytXDUI/1600x540" alt="Photo of the sea with mist covering the rocky formations near the shore.">
   </figure>
 </div>
+
 {% schema %}
   {
     "name": "Blockquote",
