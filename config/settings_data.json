@@ -1,9 +1,12 @@
 {
   "current": {
+    "colors_accent_1": "#001f3f",
+    "gradient_accent_1": "linear-gradient(228deg, rgba(21, 209, 252, 1) 14%, rgba(187, 48, 254, 1) 83%)",
     "colors_accent_2": "#ffdc00",
-    "type_header_font": "sans-serif",
+    "gradient_accent_2": "linear-gradient(180deg, rgba(255, 228, 49, 1), rgba(249, 32, 32, 1) 100%)",
+    "type_header_font": "zurich_n8",
     "type_body_font": "sans-serif",
-    "page_width": 1400,
+    "page_width": 1440,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

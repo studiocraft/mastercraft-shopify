@@ -24,7 +24,7 @@
       {
         "type": "color",
         "id": "colors_accent_1",
-        "default": "#121212",
+        "default": "#001f3f",
         "label": "t:settings_schema.colors.settings.colors_accent_1.label",
         "info": "t:settings_schema.colors.settings.colors_accent_1.info"
       },
@@ -51,14 +51,14 @@
       {
         "type": "color",
         "id": "colors_text",
-        "default": "#121212",
+        "default": "#001f3f",
         "label": "t:settings_schema.colors.settings.colors_text.label",
         "info": "t:settings_schema.colors.settings.colors_text.info"
       },
       {
         "type": "color",
         "id": "colors_outline_button_labels",
-        "default": "#121212",
+        "default": "#001f3f",
         "label": "t:settings_schema.colors.settings.colors_outline_button_labels.label",
         "info": "t:settings_schema.colors.settings.colors_outline_button_labels.info"
       },
@@ -140,9 +140,9 @@
         "type": "range",
         "id": "page_width",
         "min": 1000,
-        "max": 1600,
-        "step": 100,
-        "default": 1200,
+        "max": 1920,
+        "step": 40,
+        "default": 1440,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.page_width.label"
       },
