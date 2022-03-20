@@ -3,7 +3,7 @@
     "colors_accent_2": "#ffdc00",
     "type_header_font": "sans-serif",
     "type_body_font": "sans-serif",
-    "page_width": 1400,
+    "page_width": 1440,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
