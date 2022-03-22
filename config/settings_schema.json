@@ -23,10 +23,10 @@
       },
       {
         "type": "color",
-        "id": "colors_accent_1",
+        "id": "colors_navy",
         "default": "#001f3f",
-        "label": "t:settings_schema.colors.settings.colors_accent_1.label",
-        "info": "t:settings_schema.colors.settings.colors_accent_1.info"
+        "label": "t:settings_schema.colors.settings.colors_navy.label",
+        "info": "t:settings_schema.colors.settings.colors_navy.info"
       },
       {
         "id": "gradient_accent_1",

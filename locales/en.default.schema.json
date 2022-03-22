@@ -111,8 +111,8 @@
           "label": "Solid button label",
           "info": "Used as foreground color on accent colors."
         },
-        "colors_accent_1": {
-          "label": "Accent 1",
+        "colors_navy": {
+          "label": "Navy",
           "info": "Used for solid button background."
         },
         "gradient_accent_1": {
@@ -125,7 +125,7 @@
           "label": "Accent 2 gradient"
         },
         "header__1": {
-          "content": "Primary colors"
+          "content": "Palettes"
         },
         "header__2": {
           "content": "Secondary colors"
