@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Discover and Shop the World’s Coolest Gear",
             "heading_size": "large"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "We feature new ideas about what design can and should be, offer expert advice for designing your own products and services, and provide a marketplace for the best-designed products available.",
             "text_style": "body"
           }
         },
@@ -36,7 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/bryan-colosky-3ChXTytXDUI-unsplash.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 90,
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
