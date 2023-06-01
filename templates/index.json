@@ -80,7 +80,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "collection": "all",
+        "collection": "frontpage",
         "products_to_show": 8,
         "columns_desktop": 4,
         "color_scheme": "background-1",
