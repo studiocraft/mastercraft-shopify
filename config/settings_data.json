@@ -33,7 +33,7 @@
             "text": "#FFFFFF",
             "button": "#FFDC00",
             "button_label": "#001F3F",
-            "secondary_button_label": "#FFFFFF",
+            "secondary_button_label": "#FFDC00",
             "shadow": "#111111"
           }
         },
