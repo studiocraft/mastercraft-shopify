@@ -37,7 +37,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
         "image_mobile": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
-        "image_overlay_opacity": 80,
+        "image_overlay_opacity": 90,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
