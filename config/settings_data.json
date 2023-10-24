@@ -41,10 +41,10 @@
           "settings": {
             "background": "#FFDC00",
             "background_gradient": "",
-            "text": "#001F3F",
-            "button": "#111111",
+            "text": "#111111",
+            "button": "#001F3F",
             "button_label": "#FFDC00",
-            "secondary_button_label": "#FFFFFF",
+            "secondary_button_label": "#001F3F",
             "shadow": "#111111"
           }
         },
