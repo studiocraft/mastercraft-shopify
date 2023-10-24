@@ -31,8 +31,8 @@
             "background": "#001F3F",
             "background_gradient": "",
             "text": "#FFFFFF",
-            "button": "#01FF70",
-            "button_label": "#001F3F",
+            "button": "#F012BE",
+            "button_label": "#FFFFFF",
             "secondary_button_label": "#FFFFFF",
             "shadow": "#111111"
           }
