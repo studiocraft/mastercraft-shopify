@@ -16,73 +16,135 @@
       },
       {
         "type": "color",
-        "id": "colors_solid_button_labels",
+        "id": "colors_white",
         "default": "#FFFFFF",
-        "label": "t:settings_schema.colors.settings.colors_solid_button_labels.label",
-        "info": "t:settings_schema.colors.settings.colors_solid_button_labels.info"
+        "label": "t:settings_schema.colors.settings.colors_white.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_near_white",
+        "default": "#F5F5F5",
+        "label": "t:settings_schema.colors.settings.colors_near_white.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_light_gray",
+        "default": "#eeeeee",
+        "label": "t:settings_schema.colors.settings.colors_light_gray.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_moon_gray",
+        "default": "#cccccc",
+        "label": "t:settings_schema.colors.settings.colors_moon_gray.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_light_silver",
+        "default": "#aaaaaa",
+        "label": "t:settings_schema.colors.settings.colors_light_silver.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_silver",
+        "default": "#999999",
+        "label": "t:settings_schema.colors.settings.colors_silver.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_gray",
+        "default": "#777777",
+        "label": "t:settings_schema.colors.settings.colors_gray.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_mid_gray",
+        "default": "#555555",
+        "label": "t:settings_schema.colors.settings.colors_mid_gray.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_dark_gray",
+        "default": "#333333",
+        "label": "t:settings_schema.colors.settings.colors_dark_gray.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_near_black",
+        "default": "#111111",
+        "label": "t:settings_schema.colors.settings.colors_near_black.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_black",
+        "default": "#000000",
+        "label": "t:settings_schema.colors.settings.colors_black.label"
       },
       {
         "type": "color",
         "id": "colors_navy",
         "default": "#001f3f",
-        "label": "t:settings_schema.colors.settings.colors_navy.label",
-        "info": "t:settings_schema.colors.settings.colors_navy.info"
-      },
-      {
-        "id": "gradient_accent_1",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_accent_1.label"
+        "label": "t:settings_schema.colors.settings.colors_navy.label"
       },
       {
         "type": "color",
-        "id": "colors_accent_2",
-        "default": "#334FB4",
-        "label": "t:settings_schema.colors.settings.colors_accent_2.label"
-      },
-      {
-        "id": "gradient_accent_2",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_accent_2.label"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.colors.settings.header__2.content"
+        "id": "colors_dark_blue",
+        "default": "#00449E",
+        "label": "t:settings_schema.colors.settings.colors_dark_blue.label"
       },
       {
         "type": "color",
-        "id": "colors_text",
-        "default": "#001f3f",
-        "label": "t:settings_schema.colors.settings.colors_text.label",
-        "info": "t:settings_schema.colors.settings.colors_text.info"
+        "id": "colors_blue",
+        "default": "#357EDD",
+        "label": "t:settings_schema.colors.settings.colors_blue.label"
       },
       {
         "type": "color",
-        "id": "colors_outline_button_labels",
-        "default": "#001f3f",
-        "label": "t:settings_schema.colors.settings.colors_outline_button_labels.label",
-        "info": "t:settings_schema.colors.settings.colors_outline_button_labels.info"
+        "id": "colors_light_blue",
+        "default": "#96CCFF",
+        "label": "t:settings_schema.colors.settings.colors_light_blue.label"
       },
       {
         "type": "color",
-        "id": "colors_background_1",
-        "default": "#FFFFFF",
-        "label": "t:settings_schema.colors.settings.colors_background_1.label"
-      },
-      {
-        "id": "gradient_background_1",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_1.label"
+        "id": "colors_lightest_blue",
+        "default": "#CDECFF",
+        "label": "t:settings_schema.colors.settings.colors_lightest_blue.label"
       },
       {
         "type": "color",
-        "id": "colors_background_2",
-        "default": "#F3F3F3",
-        "label": "t:settings_schema.colors.settings.colors_background_2.label"
+        "id": "colors_dark_green",
+        "default": "#137752",
+        "label": "t:settings_schema.colors.settings.colors_dark_green.label"
       },
       {
-        "id": "gradient_background_2",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_2.label"
+        "type": "color",
+        "id": "colors_green",
+        "default": "#137752",
+        "label": "t:settings_schema.colors.settings.colors_green.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_light_green",
+        "default": "#19A974",
+        "label": "t:settings_schema.colors.settings.colors_light_green.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_lightest_green",
+        "default": "#9EEBCF",
+        "label": "t:settings_schema.colors.settings.colors_lightest_green.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_washed_green",
+        "default": "#E8FDF5",
+        "label": "t:settings_schema.colors.settings.colors_washed_green.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_yellow",
+        "default": "#ffd700",
+        "label": "t:settings_schema.colors.settings.colors_yellow.label"
       }
     ]
   },

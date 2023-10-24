@@ -9,8 +9,6 @@
     "card_style": "standard",
     "card_text_alignment": "left",
     "card_color_scheme": "background-2",
-    "checkout_accent_color": "#1878b9",
-    "checkout_button_color": "#001f3f",
     "colors_accent_1": "#001f3f",
     "sections": {
       "announcement-bar": {
