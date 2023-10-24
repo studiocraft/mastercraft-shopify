@@ -35,8 +35,9 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
