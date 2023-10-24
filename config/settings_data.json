@@ -39,11 +39,11 @@
         },
         "accent-1": {
           "settings": {
-            "background": "#FFDC00",
+            "background": "#FFD700",
             "background_gradient": "",
             "text": "#111111",
             "button": "#001F3F",
-            "button_label": "#FFDC00",
+            "button_label": "#FFD700",
             "secondary_button_label": "#001F3F",
             "shadow": "#111111"
           }
@@ -53,9 +53,9 @@
             "background": "#3D9970",
             "background_gradient": "",
             "text": "#FFFFFF",
-            "button": "#FFDC00",
+            "button": "#FFD700",
             "button_label": "#111111",
-            "secondary_button_label": "#FFDC00",
+            "secondary_button_label": "#FFD700",
             "shadow": "#111111"
           }
         }
