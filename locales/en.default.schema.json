@@ -107,48 +107,77 @@
     "colors": {
       "name": "Colors",
       "settings": {
-        "colors_solid_button_labels": {
-          "label": "Solid button label",
-          "info": "Used as foreground color on accent colors."
+        "colors_white": {
+          "label": "White"
+        },
+        "colors_near_white": {
+          "label": "Near White"
+        },
+        "colors_light_gray": {
+          "label": "Light Silver"
+        },
+        "colors_moon_gray": {
+          "label": "Light Silver"
+        },
+        "colors_light_silver": {
+          "label": "Light Silver"
+        },
+        "colors_silver": {
+          "label": "Silver"
+        },
+        "colors_gray": {
+          "label": "Gray"
+        },
+        "colors_mid_gray": {
+          "label": "Mid Gray"
+        },
+        "colors_dark_gray": {
+          "label": "Dark Gray"
+        },
+        "colors_near_black": {
+          "label": "Near Black"
+        },
+        "colors_black": {
+          "label": "Black"
         },
         "colors_navy": {
-          "label": "Navy",
-          "info": "Used for solid button background."
+          "label": "Navy"
         },
-        "gradient_accent_1": {
-          "label": "Accent 1 gradient"
+        "colors_dark_blue": {
+          "label": "Dark Blue"
         },
-        "colors_accent_2": {
-          "label": "Accent 2"
+        "colors_blue": {
+          "label": "Blue"
         },
-        "gradient_accent_2": {
-          "label": "Accent 2 gradient"
+        "colors_light_blue": {
+          "label": "Light Blue"
+        },
+        "colors_lightest_blue": {
+          "label": "Lightest Blue"
+        },
+        "colors_washed_blue": {
+          "label": "Washed Blue"
+        },
+        "colors_dark_green": {
+          "label": "Dark Green"
+        },
+        "colors_green": {
+          "label": "Green"
+        },
+        "colors_light_green": {
+          "label": "Light Green"
+        },
+        "colors_lightest_green": {
+          "label": "Lightest Green"
+        },
+        "colors_washed_green": {
+          "label": "Washed Green"
+        },
+        "colors_yellow": {
+          "label": "Yellow"
         },
         "header__1": {
           "content": "Palettes"
-        },
-        "header__2": {
-          "content": "Secondary colors"
-        },
-        "colors_text": {
-          "label": "Text",
-          "info": "Used as foreground color on background colors."
-        },
-        "colors_outline_button_labels": {
-          "label": "Outline button",
-          "info": "Also used for text links."
-        },
-        "colors_background_1": {
-          "label": "Background 1"
-        },
-        "gradient_background_1": {
-          "label": "Background 1 gradient"
-        },
-        "colors_background_2": {
-          "label": "Background 2"
-        },
-        "gradient_background_2": {
-          "label": "Background 2 gradient"
         }
       }
     },
