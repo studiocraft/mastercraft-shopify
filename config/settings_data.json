@@ -21,7 +21,7 @@
             "background_gradient": "",
             "text": "#111111",
             "button": "#85144B",
-            "button_label": "#111111",
+            "button_label": "#FFFFFF",
             "secondary_button_label": "#85144B",
             "shadow": "#111111"
           }
