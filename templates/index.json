@@ -87,7 +87,7 @@
     "multirow": {
       "type": "multirow",
       "blocks": {
-        "column1": {
+        "row1": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-design-creative.svg",
@@ -98,7 +98,7 @@
             "button_link": "shopify:\/\/pages\/contact"
           }
         },
-        "column2": {
+        "row2": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-development-engineering.svg",
@@ -108,7 +108,7 @@
             "button_link": "shopify:\/\/pages\/contact"
           }
         },
-        "column3": {
+        "row3": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-research-strategy.svg",
@@ -121,9 +121,9 @@
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "row1",
+        "row2",
+        "row3"
       ],
       "settings": {
         "image_height": "small",
