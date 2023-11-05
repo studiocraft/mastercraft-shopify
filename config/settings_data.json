@@ -15,11 +15,11 @@
             "shadow": "#111111"
           }
         },
-        "background-2": {
+        "subdued": {
           "settings": {
             "background": "#DDDDDD",
             "background_gradient": "",
-            "text": "#111111",
+            "text": "#555555",
             "button": "#85144B",
             "button_label": "#FFFFFF",
             "secondary_button_label": "#85144B",
@@ -37,7 +37,7 @@
             "shadow": "#111111"
           }
         },
-        "accent-1": {
+        "warning": {
           "settings": {
             "background": "#FFD700",
             "background_gradient": "",
@@ -48,7 +48,7 @@
             "shadow": "#111111"
           }
         },
-        "accent-2": {
+        "positive": {
           "settings": {
             "background": "#3D9970",
             "background_gradient": "",
