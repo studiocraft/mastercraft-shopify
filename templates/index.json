@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
+        "image": "shopify:\/\/shop_images\/studiocraft-cover.svg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
