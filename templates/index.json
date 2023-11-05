@@ -42,7 +42,7 @@
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
-        "image_behavior": "fixed",
+        "image_behavior": "zoom-in",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": true
