@@ -116,6 +116,7 @@
       ],
       "settings": {
         "heading_size": "h2",
+        "section_color_scheme": "warning",
         "padding_top": 100,
         "padding_bottom": 100
       }
