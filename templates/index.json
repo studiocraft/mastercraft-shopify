@@ -63,6 +63,13 @@
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Hello",
+            "button_link": "shopify:\/\/collections\/all"
+          }
         }
       },
       "block_order": [
