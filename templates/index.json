@@ -116,6 +116,7 @@
       ],
       "settings": {
         "image_height": "adapt",
+        "desktop_image_width": "small",
         "heading_size": "h2",
         "section_color_scheme": "default",
         "padding_top": 100,
