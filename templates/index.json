@@ -92,7 +92,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-design-creative.svg",
             "heading": "Design & Creative",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column2": {
@@ -100,7 +102,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-development-engineering.svg",
             "heading": "Digital Applications & Engineering",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column3": {
@@ -108,7 +112,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-research-strategy.svg",
             "heading": "Research & Strategy",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
