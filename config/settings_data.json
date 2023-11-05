@@ -50,11 +50,11 @@
         },
         "warning": {
           "settings": {
-            "background": "#FFD700",
+            "background": "#FFB700",
             "background_gradient": "",
             "text": "#111111",
             "button": "#001F3F",
-            "button_label": "#FFD700",
+            "button_label": "#FBF1A9",
             "secondary_button_label": "#001F3F",
             "shadow": "#111111"
           }
