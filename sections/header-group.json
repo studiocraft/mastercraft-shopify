@@ -17,7 +17,8 @@
         "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "highlight"
+        "color_scheme": "highlight",
+        "show_social": true
       }
     },
     "header": {
