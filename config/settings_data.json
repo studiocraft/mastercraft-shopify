@@ -4,7 +4,7 @@
     "Default": {
       "logo_width": 90,
       "color_schemes": {
-        "background-1": {
+        "default": {
           "settings": {
             "background": "#FFFFFF",
             "background_gradient": "",
