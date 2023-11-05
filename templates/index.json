@@ -58,7 +58,13 @@
             "heading_size": "h1"
           }
         },
-        "text": {
+        "text0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It revolves around the decisions we collectively make, as they will shape our future as a whole. Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing startegies?<\/p>"
+          }
+        },
+        "text1": {
           "type": "text",
           "settings": {
             "text": "<p>It revolves around the decisions we collectively make, as they will shape our future as a whole. Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing startegies?<\/p>"
@@ -74,7 +80,8 @@
       },
       "block_order": [
         "heading",
-        "text",
+        "text0",
+        "text1",
         "button"
       ],
       "settings": {
