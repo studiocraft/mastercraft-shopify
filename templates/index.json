@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our focus is not on ourselves, but rather on what lies ahead.",
+            "heading": "It's not about us.",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "It revolves around the decisions we collectively make, as they will shape our future as a whole. Will it be an eco-friendly shoe crafted from wool and sugar? Stem cell therapy for little Foo-Foo? Or perhaps a revolutionary approach to sobriety?",
+            "text": "",
             "text_style": "subtitle"
           }
         },
@@ -54,14 +54,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Our focus is not on ourselves, but rather on what lies ahead.",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>It revolves around the decisions we collectively make, as they will shape our future as a whole. Will it be an eco-friendly shoe crafted from wool and sugar? Stem cell therapy for little Foo-Foo? Or perhaps a revolutionary approach to sobriety?<\/p>"
           }
         },
         "button": {
