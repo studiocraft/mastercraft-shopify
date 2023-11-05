@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Studiocraft is a user-centric independent design studio focusing on simplicity",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text": {
@@ -58,16 +58,10 @@
             "heading_size": "h1"
           }
         },
-        "text0": {
+        "text": {
           "type": "text",
           "settings": {
             "text": "<p>It revolves around the decisions we collectively make, as they will shape our future as a whole. Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing startegies?<\/p>"
-          }
-        },
-        "text1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Studiocraft is a user-centric independent design consultancy focusing on simplicity.<\/p>"
           }
         },
         "button": {
@@ -80,8 +74,7 @@
       },
       "block_order": [
         "heading",
-        "text0",
-        "text1",
+        "text",
         "button"
       ],
       "settings": {
