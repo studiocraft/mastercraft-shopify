@@ -129,7 +129,8 @@
         "heading_size": "h1",
         "text_style": "subtitle",
         "button_style": "primary",
-        "desktop_content_position": "",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 100
       }
