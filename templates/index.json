@@ -127,7 +127,7 @@
         "title": "Services & Capabilities",
         "heading_size": "h2",
         "image_width": "full",
-        "image_ratio": "blob",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
