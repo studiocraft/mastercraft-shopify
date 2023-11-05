@@ -84,37 +84,28 @@
         "padding_bottom": 100
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
+    "multirow": {
+      "type": "multirow",
       "blocks": {
         "column1": {
-          "type": "column",
+          "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-design-creative.svg",
-            "title": "Design & Creative",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "column2": {
-          "type": "column",
+          "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-development-engineering.svg",
-            "title": "Digital Applications & Engineering",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "column3": {
-          "type": "column",
+          "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-research-strategy.svg",
-            "title": "Research & Strategy",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
@@ -124,18 +115,7 @@
         "column3"
       ],
       "settings": {
-        "title": "Services & Capabilities",
         "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "About Us",
-        "button_link": "shopify:\/\/collections\/all",
-        "color_scheme": "warning",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -144,6 +124,6 @@
   "order": [
     "image_banner",
     "rich_text",
-    "multicolumn"
+    "multirow"
   ]
 }
