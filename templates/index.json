@@ -131,6 +131,8 @@
         "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
+        "section_color_scheme": "subdued",
+        "row_color_scheme": "highlight",
         "padding_top": 100,
         "padding_bottom": 100
       }
