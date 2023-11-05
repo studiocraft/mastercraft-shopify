@@ -115,8 +115,9 @@
         "column3"
       ],
       "settings": {
+        "image_height": "adapt",
         "heading_size": "h2",
-        "section_color_scheme": "warning",
+        "section_color_scheme": "default",
         "padding_top": 100,
         "padding_bottom": 100
       }
