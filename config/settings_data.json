@@ -37,6 +37,17 @@
             "shadow": "#111111"
           }
         },
+        "highlight": {
+          "settings": {
+            "background": "#FFD700",
+            "background_gradient": "",
+            "text": "#111111",
+            "button": "#001F3F",
+            "button_label": "#FFD700",
+            "secondary_button_label": "#001F3F",
+            "shadow": "#111111"
+          }
+        },
         "warning": {
           "settings": {
             "background": "#FFD700",
