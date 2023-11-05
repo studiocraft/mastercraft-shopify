@@ -124,7 +124,7 @@
         "column3"
       ],
       "settings": {
-        "image_height": "small",
+        "image_height": "adapt",
         "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "subtitle",
