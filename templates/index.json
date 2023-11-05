@@ -102,7 +102,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-development-engineering.svg",
-            "caption": "Experts In",
+            "caption": "Consultancy With",
             "heading": "Digital Applications & Engineering",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Learn more",
@@ -113,7 +113,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-research-strategy.svg",
-            "caption": "Experts In",
+            "caption": "Partners For",
             "heading": "Research & Strategy",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Learn more",
@@ -122,9 +122,9 @@
         }
       },
       "block_order": [
+        "row3",
         "row1",
-        "row2",
-        "row3"
+        "row2"
       ],
       "settings": {
         "image_height": "adapt",
