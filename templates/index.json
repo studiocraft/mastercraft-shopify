@@ -127,6 +127,7 @@
         "image_height": "adapt",
         "desktop_image_width": "small",
         "heading_size": "h1",
+        "text_style": "subtitle",
         "padding_top": 100,
         "padding_bottom": 100
       }
