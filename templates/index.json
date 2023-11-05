@@ -20,8 +20,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/pages\/about",
+            "button_label_1": "Get in Touch",
+            "button_link_1": "shopify:\/\/pages\/contact",
             "button_style_secondary_1": false,
             "button_label_2": "Learn more",
             "button_link_2": "shopify:\/\/pages\/services-capabilities",
