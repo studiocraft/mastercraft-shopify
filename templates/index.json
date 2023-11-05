@@ -91,7 +91,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
-            "title": "Column",
+            "title": "Design & Creative",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -101,7 +101,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
-            "title": "Column",
+            "title": "Digital Applications & Engineering",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -111,7 +111,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
-            "title": "Column",
+            "title": "Research & Strategy",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
