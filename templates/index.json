@@ -126,8 +126,8 @@
         "row3"
       ],
       "settings": {
-        "image_height": "small",
-        "desktop_image_width": "small",
+        "image_height": "adapt",
+        "desktop_image_width": "large",
         "heading_size": "h1",
         "text_style": "subtitle",
         "button_style": "primary",
