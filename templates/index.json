@@ -74,7 +74,8 @@
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "button"
       ],
       "settings": {
         "color_scheme": "default",
