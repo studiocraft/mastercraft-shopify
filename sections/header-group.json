@@ -8,8 +8,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "Check out our merch!",
+            "link": "shopify:\/\/collections\/all"
           }
         }
       },
