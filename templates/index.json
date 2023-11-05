@@ -124,10 +124,10 @@
         "column3"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "Services & Capabilities",
+        "heading_size": "h2",
         "image_width": "full",
-        "image_ratio": "circle",
+        "image_ratio": "blob",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
