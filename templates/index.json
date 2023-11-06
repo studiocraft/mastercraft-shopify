@@ -101,7 +101,7 @@
         "row2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/graphic-development-engineering.svg",
+            "image": "shopify:\/\/shop_images\/studiocraft-splash1.jpg",
             "caption": "Consultancy With",
             "heading": "Digital Applications & Engineering",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -112,7 +112,7 @@
         "row3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/graphic-research-strategy.svg",
+            "image": "shopify:\/\/shop_images\/studiocraft-splash1.jpg",
             "caption": "Partners For",
             "heading": "Research & Strategy",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
