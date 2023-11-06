@@ -71,9 +71,9 @@
           }
         }
       },
-      "type_header_font": "madera_n8",
+      "type_header_font": "metro_nova_n8",
       "heading_scale": 100,
-      "type_body_font": "madera_n6",
+      "type_body_font": "metro_nova_n4",
       "body_scale": 100,
       "page_width": 1200,
       "spacing_sections": 0,
