@@ -28,7 +28,8 @@
       },
       "block_order": [
         "footer-0",
-        "footer-1"
+        "footer-1",
+        "brand"
       ],
       "settings": {
         "color_scheme": "inverse",
