@@ -135,7 +135,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "section_color_scheme": "default",
-        "row_color_scheme": "default",
+        "row_color_scheme": "highlight",
         "mobile_content_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 100
