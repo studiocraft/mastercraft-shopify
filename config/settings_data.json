@@ -95,7 +95,7 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "warning",
     "sold_out_badge_color_scheme": "inverse",
-    "brand_headline": "Experts in Craft. Partners in Design.",
+    "brand_headline": "Experts in craft—partners in design.",
     "brand_description": "<p>Studiocraft is a user-centric & ecological design studio focusing on simplicity, sustainability, and human craft.<\/p>",
     "brand_image": "shopify:\/\/shop_images\/logo-wordmark_white.svg",
     "brand_image_width": 160,
@@ -203,7 +203,7 @@
     "Default": {
       "logo_width": 260,
       "logo": "shopify:\/\/shop_images\/logo-wordmark_navy.svg",
-      "brand_headline": "Experts in Craft. Partners in Design.",
+      "brand_headline": "Experts in craft—partners in design.",
       "brand_description": "Studiocraft is a user-centric & ecological design studio focusing on simplicity, sustainability, and human craft.",
       "brand_image": "shopify:\/\/shop_images\/logo-wordmark_white.svg",
       "brand_image_width": 160,
