@@ -3,6 +3,7 @@
   "presets": {
     "Default": {
       "logo_width": 90,
+      "logo": "shopify:\/\/shop_images\/logo-emblem.svg",
       "color_schemes": {
         "default": {
           "settings": {
