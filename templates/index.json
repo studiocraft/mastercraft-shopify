@@ -127,7 +127,7 @@
         "row2"
       ],
       "settings": {
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "subtitle",
