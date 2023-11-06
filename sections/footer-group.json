@@ -12,13 +12,6 @@
             "menu": "pages-menu"
           }
         },
-        "footer-1": {
-          "type": "text",
-          "settings": {
-            "heading": "Studiocraft",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
         "brand": {
           "type": "brand_information",
           "settings": {
@@ -28,7 +21,6 @@
       },
       "block_order": [
         "footer-0",
-        "footer-1",
         "brand"
       ],
       "settings": {
