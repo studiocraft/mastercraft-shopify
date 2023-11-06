@@ -20,8 +20,8 @@
         }
       },
       "block_order": [
-        "brand",
-        "footer-0"
+        "footer-0",
+        "brand"
       ],
       "settings": {
         "color_scheme": "inverse",
