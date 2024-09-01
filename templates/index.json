@@ -142,19 +142,19 @@
         "row2"
       ],
       "settings": {
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_image_width": "small",
-        "heading_size": "h1",
-        "text_style": "subtitle",
+        "heading_size": "h2",
+        "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
         "section_color_scheme": "default",
         "row_color_scheme": "default",
-        "mobile_content_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "mobile_content_alignment": "left",
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
