@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Studiocraft is a user-centric & ecological design studio focusing on simplicity, sustainability, and human craft.",
+            "heading": "Studiocraft is a product design studio focusing on simplicity, sustainability, and human craft.",
             "heading_size": "h2"
           }
         },
@@ -146,15 +146,15 @@
         "desktop_image_width": "small",
         "heading_size": "h2",
         "text_style": "body",
-        "button_style": "secondary",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
         "section_color_scheme": "default",
-        "row_color_scheme": "default",
+        "row_color_scheme": "inverse",
         "mobile_content_alignment": "left",
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
