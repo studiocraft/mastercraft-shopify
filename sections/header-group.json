@@ -14,27 +14,27 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_FRJDGB": {
+          "type": "announcement",
+          "settings": {
+            "text": "👋 Welcome to the Studiocraft store!",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
             "text": "🆕 Check out our latest merch!",
             "link": "shopify:\/\/collections\/all"
           }
-        },
-        "announcement_FRJDGB": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_FRJDGB"
+        "announcement_FRJDGB",
+        "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "warning",
+        "color_scheme": "inverse",
         "show_line_separator": true,
         "show_social": true,
         "auto_rotate": false,
