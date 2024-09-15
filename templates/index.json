@@ -151,7 +151,7 @@
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
         "section_color_scheme": "default",
-        "row_color_scheme": "inverse",
+        "row_color_scheme": "subdued",
         "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 100
