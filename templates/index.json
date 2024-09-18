@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "👋 Hey! We’re Studiocraft!",
-            "heading_size": "h2"
+            "heading_size": "h0"
           }
         },
         "text": {
