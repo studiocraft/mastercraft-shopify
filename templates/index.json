@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "👋Hi. We’re Studiocraft!",
+            "heading": "👋 Hey! We’re Studiocraft!",
             "heading_size": "h2"
           }
         },
@@ -53,7 +53,7 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "warning",
+        "color_scheme": "inverse",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
