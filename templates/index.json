@@ -117,7 +117,7 @@
         "product": "zippo-windproof-lighter",
         "color_scheme": "subdued",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "right",
