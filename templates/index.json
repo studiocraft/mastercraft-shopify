@@ -65,8 +65,8 @@
         "share_8xYefk"
       ],
       "settings": {
-        "product": "",
-        "color_scheme": "inverse",
+        "product": "zippo-windproof-lighter",
+        "color_scheme": "warning",
         "secondary_background": true,
         "media_size": "small",
         "constrain_to_viewport": true,
