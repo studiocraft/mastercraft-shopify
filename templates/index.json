@@ -118,7 +118,7 @@
       "settings": {
         "product": "canvas-print-126",
         "color_scheme": "subdued",
-        "secondary_background": false,
+        "secondary_background": true,
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
