@@ -179,9 +179,9 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What is Studiocraft?",
-            "icon": "question_mark",
+            "icon": "ruler",
             "row_content": "",
-            "page": ""
+            "page": "about"
           }
         },
         "collapsible_row_frE8NW": {
@@ -223,9 +223,9 @@
         "heading": "Frequently asked questions",
         "heading_size": "h2",
         "heading_alignment": "left",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "",
-        "container_color_scheme": "",
+        "container_color_scheme": "subdued",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
