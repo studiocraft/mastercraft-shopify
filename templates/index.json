@@ -9,57 +9,6 @@
 */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Studiocraft is a product design studio focusing on simplicity, sustainability, and human craft.",
-            "heading_size": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "We're experts in our craft—but it's not about us. It's about what happens next.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Get in touch",
-            "button_link_1": "shopify:\/\/pages\/contact",
-            "button_style_secondary_1": false,
-            "button_label_2": "Learn more",
-            "button_link_2": "shopify:\/\/pages\/services-capabilities",
-            "button_style_secondary_2": true
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
-        "image_2": "shopify:\/\/shop_images\/105_paddle-wheel.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
-        "image_2_mobile": "shopify:\/\/shop_images\/105_paddle-wheel.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "warning",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "featured_product_GE9Pj6": {
       "type": "featured-product",
       "blocks": {
@@ -128,6 +77,57 @@
         "enable_video_looping": false,
         "padding_top": 52,
         "padding_bottom": 52
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Studiocraft is a product design studio focusing on simplicity, sustainability, and human craft.",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "We're experts in our craft—but it's not about us. It's about what happens next.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get in touch",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "Learn more",
+            "button_link_2": "shopify:\/\/pages\/services-capabilities",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
+        "image_2": "shopify:\/\/shop_images\/105_paddle-wheel.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
+        "image_2_mobile": "shopify:\/\/shop_images\/105_paddle-wheel.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "warning",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "rich_text": {
@@ -288,8 +288,8 @@
     }
   },
   "order": [
-    "image_banner",
     "featured_product_GE9Pj6",
+    "image_banner",
     "rich_text",
     "featured_collection_Q8rhgY",
     "multirow",
