@@ -117,7 +117,7 @@
         "product": "untitled-jan16_23-29",
         "color_scheme": "subdued",
         "secondary_background": false,
-        "media_size": "small",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "right",
