@@ -121,7 +121,7 @@
         "secondary_background": true,
         "media_size": "small",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": true,
