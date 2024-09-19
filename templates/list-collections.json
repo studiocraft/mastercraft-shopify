@@ -13,10 +13,10 @@
       "type": "main-list-collections",
       "settings": {
         "title": "Shop all 🛒",
-        "sort": "date_reversed",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "columns_mobile": "1"
+        "sort": "products_high",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "columns_mobile": "2"
       }
     }
   },
