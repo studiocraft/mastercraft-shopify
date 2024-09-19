@@ -21,6 +21,13 @@
             "menu": "pages-menu"
           }
         },
+        "link_list_4hYK9D": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Merchandise 🛍️",
+            "menu": "footer"
+          }
+        },
         "footer-1": {
           "type": "link_list",
           "settings": {
@@ -33,20 +40,13 @@
           "settings": {
             "show_social": true
           }
-        },
-        "link_list_4hYK9D": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Merchandise 🛍️",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
         "footer-0",
+        "link_list_4hYK9D",
         "footer-1",
-        "brand",
-        "link_list_4hYK9D"
+        "brand"
       ],
       "settings": {
         "color_scheme": "inverse",
