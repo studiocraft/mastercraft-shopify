@@ -41,8 +41,8 @@
         "brand"
       ],
       "settings": {
-        "color_scheme": "warning",
-        "newsletter_enable": false,
+        "color_scheme": "inverse",
+        "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
