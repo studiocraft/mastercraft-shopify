@@ -48,12 +48,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "brand": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": false
-          }
-        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -74,16 +68,22 @@
             "heading": "Website 🌐",
             "menu": "footer"
           }
+        },
+        "brand": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
         }
       },
       "block_order": [
-        "brand",
         "footer-0",
         "link_list_4hYK9D",
-        "footer-1"
+        "footer-1",
+        "brand"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "warning",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe 📨",
         "enable_follow_on_shop": true,
