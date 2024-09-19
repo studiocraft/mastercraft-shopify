@@ -84,8 +84,8 @@
       ],
       "settings": {
         "color_scheme": "inverse",
-        "newsletter_enable": false,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe 📨",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
