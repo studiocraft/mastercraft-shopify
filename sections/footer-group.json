@@ -17,8 +17,8 @@
         "heading_tfhmAp": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "heading": "Subscribe to our email list",
+            "heading_size": "h2"
           }
         },
         "paragraph_KhGDwG": {
@@ -39,10 +39,10 @@
         "email_form_cBLV7e"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "positive",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "footer": {
