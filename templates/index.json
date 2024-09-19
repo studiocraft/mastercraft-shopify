@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>👋 Hey! Welcome to Studiocraft!<\/strong>",
+            "heading": "👋 Hey! Welcome to Studiocraft!",
             "heading_size": "h0"
           }
         },
