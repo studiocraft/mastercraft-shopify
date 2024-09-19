@@ -13,7 +13,7 @@
       "type": "main-list-collections",
       "settings": {
         "title": "Shop all 🛒",
-        "sort": "alphabetical",
+        "sort": "date_reversed",
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "columns_mobile": "1"
