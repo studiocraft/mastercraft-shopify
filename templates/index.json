@@ -145,8 +145,8 @@
         "collapsible_row_frE8NW": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "What does Studiocraft do?",
+            "icon": "lightning_bolt",
             "row_content": "",
             "page": ""
           }
@@ -154,8 +154,8 @@
         "collapsible_row_gFM6yp": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "What products do you offer?",
+            "icon": "price_tag",
             "row_content": "",
             "page": ""
           }
@@ -163,8 +163,8 @@
         "collapsible_row_MmckiY": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "What are your policies?",
+            "icon": "clipboard",
             "row_content": "",
             "page": ""
           }
