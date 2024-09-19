@@ -29,10 +29,10 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Our Merchandise 🛍️",
+            "button_label_1": "Products & Goods 🛍️",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
-            "button_label_2": "What we Do ⚡️",
+            "button_label_2": "Learn What We Do ⚡️",
             "button_link_2": "shopify:\/\/pages\/services-capabilities",
             "button_style_secondary_2": true
           }
