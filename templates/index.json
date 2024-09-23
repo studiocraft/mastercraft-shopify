@@ -30,10 +30,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Products & Goods 🛍️",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "Learn What We Do ⚡️",
-            "button_link_2": "shopify:\/\/pages\/services-capabilities",
+            "button_link_2": "shopify://pages/services-capabilities",
             "button_style_secondary_2": true
           }
         }
@@ -44,10 +44,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
-        "image_2": "shopify:\/\/shop_images\/105_paddle-wheel.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/studiocraft-splash.jpg",
-        "image_2_mobile": "shopify:\/\/shop_images\/105_paddle-wheel.jpg",
+        "image": "shopify://shop_images/studiocraft-splash.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
@@ -185,7 +182,7 @@
         "color_scheme": "",
         "container_color_scheme": "subdued",
         "open_first_collapsible_row": true,
-        "image": "shopify:\/\/shop_images\/128_flower.jpg",
+        "image": "shopify://shop_images/128_flower.jpg",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
@@ -205,14 +202,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>It revolves around the decisions we collectively make, as they will shape our future as a whole.<\/p><p>We see, we feel, and we decide. Together we create. Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing campaigns for artists and musicians? Or is it simply handmade tortillas?<\/p>"
+            "text": "<p>It revolves around the decisions we collectively make, as they will shape our future as a whole.</p><p>We see, we feel, and we decide. Together we create. Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing campaigns for artists and musicians? Or is it simply handmade tortillas?</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "Let's find out together",
-            "button_link": "shopify:\/\/pages\/contact",
+            "button_link": "shopify://pages/contact",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -268,34 +265,34 @@
         "row3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/studiocraft-splash2.jpg",
+            "image": "shopify://shop_images/studiocraft-splash2.jpg",
             "caption": "Partners For",
             "heading": "Research & Strategy 🔬",
-            "text": "<p>Large organizations want to function more like small startups. Small startups want to scale like large organizations. It's time to start thinking like a designer—focus on understanding your user's behaviors, needs, and motivations<\/p><p>Here at Studiocraft, we draw on stories, contexts, and cultures to crystalize truths that improve consumers’ lives, inspire teams, and grow businesses<\/p><p>Our capabilities include:<br\/><\/p><ul><li>Ethnographic Interviews<\/li><li>In-Depth Interviews<\/li><li>Mobile Research<\/li><li>Digital Communities<\/li><li>Usability Research<\/li><li>Focus Groups<\/li><\/ul>",
+            "text": "<p>Large organizations want to function more like small startups. Small startups want to scale like large organizations. It's time to start thinking like a designer—focus on understanding your user's behaviors, needs, and motivations</p><p>Here at Studiocraft, we draw on stories, contexts, and cultures to crystalize truths that improve consumers’ lives, inspire teams, and grow businesses</p><p>Our capabilities include:<br/></p><ul><li>Ethnographic Interviews</li><li>In-Depth Interviews</li><li>Mobile Research</li><li>Digital Communities</li><li>Usability Research</li><li>Focus Groups</li></ul>",
             "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/product-strategy"
+            "button_link": "shopify://pages/product-strategy"
           }
         },
         "row1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/studiocraft-splash3.jpg",
+            "image": "shopify://shop_images/studiocraft-splash3.jpg",
             "caption": "Experts In",
             "heading": "Design & Creative 🎨",
-            "text": "<p>Communication, messaging, and tone all have differ roles—that together—formulate a perception and expectation for your users and customers<\/p><p>Here at Studiocraft, we strive to create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life<\/p><p>Our capabilities include:<\/p><ul><li>Design Strategy<\/li><li>User Experience<\/li><li>Design Systems<\/li><li>Visual Design<\/li><li>Digital Branding<\/li><li>Design Consulting<\/li><\/ul>",
+            "text": "<p>Communication, messaging, and tone all have differ roles—that together—formulate a perception and expectation for your users and customers</p><p>Here at Studiocraft, we strive to create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life</p><p>Our capabilities include:</p><ul><li>Design Strategy</li><li>User Experience</li><li>Design Systems</li><li>Visual Design</li><li>Digital Branding</li><li>Design Consulting</li></ul>",
             "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/design-creative"
+            "button_link": "shopify://pages/design-creative"
           }
         },
         "row2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/studiocraft-splash1.jpg",
+            "image": "shopify://shop_images/studiocraft-splash1.jpg",
             "caption": "Consultancy With",
             "heading": "Digital Applications & Engineering 🛠️",
-            "text": "<p>Digital applications and engineering allow us to create circular or regenerative-digitally-native consumer products, services, and systems, providing shared value for society and the environment.<\/p><p>Our capabilities include:<\/p><ul><li> Development<\/li><li>Integration<\/li><li>Automation<\/li><li>Security<\/li><li>Scalability<\/li><\/ul>",
+            "text": "<p>Digital applications and engineering allow us to create circular or regenerative-digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p><p>Our capabilities include:</p><ul><li> Development</li><li>Integration</li><li>Automation</li><li>Security</li><li>Scalability</li></ul>",
             "button_label": "Learn more",
-            "button_link": "shopify:\/\/pages\/product-engineering"
+            "button_link": "shopify://pages/product-engineering"
           }
         }
       },
