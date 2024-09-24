@@ -133,7 +133,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What is Studiocraft?",
-            "icon": "ruler",
+            "icon": "question_mark",
             "row_content": "",
             "page": "about"
           }
