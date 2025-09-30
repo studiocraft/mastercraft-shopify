@@ -10,11 +10,11 @@
   flex: 1;
 }
 
-.accordion .summary__title + .icon-caret {
+.accordion .summary__title+.icon-caret {
   height: calc(var(--font-heading-scale) * 0.6rem);
 }
 
-.accordion + .accordion {
+.accordion+.accordion {
   margin-top: 0;
   border-top: none;
 }
@@ -36,13 +36,12 @@
 
 .accordion .icon-accordion {
   align-self: center;
-  fill: rgb(var(--color-foreground));
   height: calc(var(--font-heading-scale) * 2rem);
   margin-right: calc(var(--font-heading-scale) * 1rem);
   width: calc(var(--font-heading-scale) * 2rem);
 }
 
-.accordion details[open] > summary .icon-caret {
+.accordion details[open]>summary .icon-caret {
   transform: rotate(180deg);
 }
 

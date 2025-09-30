@@ -1,0 +1,247 @@
+{{ 'component-marquee.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- style -%}
+  .marquee__scroll{
+    animation: {% if section.settings.direction == 'left'%} marqueeRightLeft {%  else  %} marqueeLeftRight {% endif %}  {{section.settings.speed}}s linear infinite;
+  }
+{%- endstyle -%}
+
+<div
+  class="marquee__section section-{{ section.id }}-padding gradient content-container gradient color-{{ section.settings.color_scheme }}"
+  role="marquee"
+>
+  {% assign repeater = 5 %}
+  {% for i in (1..repeater) %}
+    <span class="marquee__scroll" aria-hidden="true">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'heading' -%}
+            <span
+              class="inline-richtext {{ block.settings.heading_size }}"
+              {{ block.shopify_attributes }}
+              {% if i > 1 %}
+                aria-hidden="true"
+              {% endif %}
+            >
+              {{ block.settings.heading }}
+            </span>
+          {%- when 'buttons' -%}
+            {%- if block.settings.button_label_1 != blank -%}
+              <a
+                {% if block.settings.button_link_1 == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ block.settings.button_link_1 }}"
+                {% endif %}
+                class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                {% if i > 1 %}
+                  aria-hidden="true"
+                {% endif %}
+              >
+                {{- block.settings.button_label_1 | escape -}}
+              </a>
+            {%- endif -%}
+
+            {%- if block.settings.button_label_2 != blank -%}
+              <a
+                {% if block.settings.button_link_2 == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ block.settings.button_link_2 }}"
+                {% endif %}
+                class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+              >
+                {{- block.settings.button_label_2 | escape -}}
+              </a>
+            {%- endif -%}
+        {%- endcase -%}
+      {% endfor %}
+    </span>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Marquee",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "select",
+      "id": "direction",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left",
+      "label": "Direction"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "warning"
+    },
+    {
+      "type": "range",
+      "id": "speed",
+      "min": 1,
+      "max": 25,
+      "step": 1,
+      "unit": "s",
+      "label": "Speed",
+      "default": 13
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Studiocraft is a user-centric & ecological design studio focusing on simplicity, sustainability, and human craft.",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_1",
+          "default": true,
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": true,
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Marquee",
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+            "heading": "Some of the best goods on the planet.",
+            "heading_size": "h2"
+          }
+        },
+        {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "/collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "Learn more",
+            "button_link_2": "/pages/services-capabilities",
+            "button_style_secondary_2": false
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

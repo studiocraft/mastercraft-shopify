@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -14,14 +14,7 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_FRJDGB": {
-          "type": "announcement",
-          "settings": {
-            "text": "🛍️  Check out our store!",
-            "link": "shopify://collections/all"
-          }
-        },
-        "announcement-bar-0": {
+        "announcement": {
           "type": "announcement",
           "settings": {
             "text": "🆕 Check out our latest merch!",
@@ -30,8 +23,7 @@
         }
       },
       "block_order": [
-        "announcement_FRJDGB",
-        "announcement-bar-0"
+        "announcement"
       ],
       "settings": {
         "color_scheme": "inverse",
@@ -52,10 +44,10 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "color_scheme": "default",
-        "menu_color_scheme": "default",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "mobile_logo_position": "center",
+        "menu_color_scheme": "subdued",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "left",
         "margin_bottom": 0,
         "padding_top": 12,
         "padding_bottom": 12

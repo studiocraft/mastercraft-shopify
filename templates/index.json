@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -15,24 +15,24 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "👋 Hi. Welcome to Studiocraft!",
+            "heading": "Welcome to Studiocraft 👋",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "We’re a creative collective focusing on simplicity, sustainability, and human craft.",
+            "text": "A creative agency & shop focusing on simplicity, sustainability, and human craft.",
             "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Products & Goods 🛍️",
+            "button_label_1": "Products & goods 🛍️",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
-            "button_label_2": "Learn What We Do ⚡️",
+            "button_label_2": "Learn what we do ⚡️",
             "button_link_2": "shopify://pages/services-capabilities",
             "button_style_secondary_2": true
           }
@@ -44,59 +44,125 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/studiocraft-splash.jpg",
+        "image": "{{ shop.brand.cover_image }}",
         "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "bottom-center",
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
-    "featured_product_GE9Pj6": {
+    "marquee0": {
+      "type": "marquee",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "💕 Some of the greatest goods & services on earth.",
+            "heading_size": "h1"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now 🛍️",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "ℹ️  Learn more",
+            "button_link_2": "shopify://pages/about",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "warning",
+        "speed": 25,
+        "direction": "left",
+        "padding_top": 100,
+        "padding_bottom": 100,
+      },
+    },
+    "marquee1": {
+      "type": "marquee",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "🌎 Great discounts on some of the best goods on the planet.",
+            "heading_size": "h1"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Final sale 🏷️",
+            "button_link_1": "shopify://collections/sale-clearance",
+            "button_style_secondary_1": false,
+            "button_label_2": "⚡️ Studiocraft",
+            "button_link_2": "shopify://pages/about",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "speed": 25,
+        "direction": "left",
+        "padding_top": 100,
+        "padding_bottom": 100,
+      },
+    },
+    "featured_product": {
       "type": "featured-product",
       "blocks": {
-        "text_EkM4bF": {
+        "text": {
           "type": "text",
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
           }
         },
-        "title_BjJRNC": {
+        "title": {
           "type": "title",
           "settings": {
-            "heading_size": "h2"
+            "heading_size": "h2",
           }
         },
-        "price_wN6fAj": {
+        "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
-        "variant_picker_nBJzVF": {
+        "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
           }
         },
-        "quantity_selector_M8BpVE": {
+        "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
-        "buy_buttons_mdfkCF": {
+        "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
         },
-        "share_8xYefk": {
+        "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
@@ -104,13 +170,13 @@
         }
       },
       "block_order": [
-        "text_EkM4bF",
-        "title_BjJRNC",
-        "price_wN6fAj",
-        "variant_picker_nBJzVF",
-        "quantity_selector_M8BpVE",
-        "buy_buttons_mdfkCF",
-        "share_8xYefk"
+        "text",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "share"
       ],
       "settings": {
         "product": "table-unit",
@@ -127,10 +193,10 @@
         "padding_bottom": 52
       }
     },
-    "collapsible_content_hyBXtU": {
+    "collapsible_content": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_xM7aCW": {
+        "collapsible_row_0": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What is Studiocraft?",
@@ -139,7 +205,7 @@
             "page": "about"
           }
         },
-        "collapsible_row_frE8NW": {
+        "collapsible_row_1": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What does Studiocraft do?",
@@ -148,7 +214,7 @@
             "page": ""
           }
         },
-        "collapsible_row_gFM6yp": {
+        "collapsible_row_2": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What products do you offer?",
@@ -157,7 +223,7 @@
             "page": ""
           }
         },
-        "collapsible_row_MmckiY": {
+        "collapsible_row_3": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What are your policies?",
@@ -168,10 +234,10 @@
         }
       },
       "block_order": [
-        "collapsible_row_xM7aCW",
-        "collapsible_row_frE8NW",
-        "collapsible_row_gFM6yp",
-        "collapsible_row_MmckiY"
+        "collapsible_row_0",
+        "collapsible_row_1",
+        "collapsible_row_2",
+        "collapsible_row_3"
       ],
       "settings": {
         "caption": "Studiocraft",
@@ -224,38 +290,113 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "positive",
+        "color_scheme": "subdued",
         "full_width": true,
         "padding_top": 100,
         "padding_bottom": 100
       }
     },
-    "featured_collection_Nw367C": {
+    "featured_collection_0": {
       "type": "featured-collection",
       "settings": {
-        "title": "Top products",
-        "heading_size": "h0",
-        "description": "",
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "{{ section.settings.collection.description }}",
         "show_description": true,
         "description_style": "body",
         "collection": "frontpage",
         "products_to_show": 5,
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "link",
         "enable_desktop_slider": true,
         "color_scheme": "",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": true,
-        "show_rating": false,
+        "show_rating": true,
         "enable_quick_add": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "featured_collection_1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "{{ section.settings.collection.description }}",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "sale-clearance",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "highlight",
+        "image_ratio": "portrait",
+        "image_shape": "chevronleft",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash2.jpg",
+            "title": "Research & Strategy 🔬",
+            "text": "<p>Learn how Stoducicraft can improve consumers’ lives, inspire teams, and grow businesses</p>",
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash3.jpg",
+            "title": "Design & Creative 🎨",
+            "text": "<p>Create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life</p>",
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash1.jpg",
+            "title": "Code & Engineering 🛠️",
+            "text": "<p>Digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p>",
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "What we do—our services & capabilities 🚀",
+        "button_label": "Learn what we do ⚡️",
+        "button_link": "shopify://pages/services-capabilities",
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_width": "third",
+        "columns_desktop": 3,
+        "heading_size": "h0",
+        "color_scheme": "highlight",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "multirow": {
@@ -288,7 +429,7 @@
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash1.jpg",
             "caption": "Consultancy With",
-            "heading": "Digital Applications & Engineering 🛠️",
+            "heading": "Code & Engineering 🛠️",
             "text": "<p>Digital applications and engineering allow us to create circular or regenerative-digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p><p>Our capabilities include:</p><ul><li> Development</li><li>Integration</li><li>Automation</li><li>Security</li><li>Scalability</li></ul>",
             "button_label": "Learn more",
             "button_link": "shopify://pages/product-engineering"
@@ -302,56 +443,31 @@
       ],
       "settings": {
         "image_height": "small",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "heading_size": "h2",
         "text_style": "body",
         "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "default",
+        "section_color_scheme": "highlight",
         "row_color_scheme": "inverse",
         "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 100
       }
-    },
-    "featured_collection_Q8rhgY": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "On Sale",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": true,
-        "description_style": "body",
-        "collection": "sale-clearance",
-        "products_to_show": 10,
-        "columns_desktop": 2,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": true,
-        "color_scheme": "highlight",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": true,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
-    "featured_product_GE9Pj6",
-    "collapsible_content_hyBXtU",
+    "marquee0",
     "rich_text",
-    "featured_collection_Nw367C",
+    "multicolumn",
+    "featured_collection_0",
     "multirow",
-    "featured_collection_Q8rhgY"
+    "featured_product",
+    "marquee1",
+    "featured_collection_1",
+    "collapsible_content",
   ]
 }

@@ -54,14 +54,13 @@
 }
 
 .search__button .icon {
-  height: 1.8rem;
-  width: 1.8rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .reset__button .icon.icon-close {
-  height: 1.8rem;
-  width: 1.8rem;
-  stroke-width: 0.1rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 /* Remove extra spacing for search inputs in Safari */
