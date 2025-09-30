@@ -84,12 +84,12 @@
         "buttons"
       ],
       "settings": {
+        "direction": "left",
         "color_scheme": "warning",
         "speed": 25,
-        "direction": "left",
         "padding_top": 100,
-        "padding_bottom": 100,
-      },
+        "padding_bottom": 100
+      }
     },
     "marquee1": {
       "type": "marquee",
@@ -118,12 +118,12 @@
         "buttons"
       ],
       "settings": {
+        "direction": "left",
         "color_scheme": "inverse",
         "speed": 25,
-        "direction": "left",
         "padding_top": 100,
-        "padding_bottom": 100,
-      },
+        "padding_bottom": 100
+      }
     },
     "featured_product": {
       "type": "featured-product",
@@ -138,7 +138,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_size": "h2",
+            "heading_size": "h2"
           }
         },
         "price": {
@@ -360,7 +360,7 @@
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash2.jpg",
             "title": "Research & Strategy 🔬",
-            "text": "<p>Learn how Stoducicraft can improve consumers’ lives, inspire teams, and grow businesses</p>",
+            "text": "<p>Learn how Stoducicraft can improve consumers’ lives, inspire teams, and grow businesses</p>"
           }
         },
         "column2": {
@@ -368,7 +368,7 @@
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash3.jpg",
             "title": "Design & Creative 🎨",
-            "text": "<p>Create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life</p>",
+            "text": "<p>Create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life</p>"
           }
         },
         "column3": {
@@ -376,7 +376,7 @@
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash1.jpg",
             "title": "Code & Engineering 🛠️",
-            "text": "<p>Digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p>",
+            "text": "<p>Digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p>"
           }
         }
       },
@@ -387,14 +387,14 @@
       ],
       "settings": {
         "title": "What we do—our services & capabilities 🚀",
+        "heading_size": "h0",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
         "button_label": "Learn what we do ⚡️",
         "button_link": "shopify://pages/services-capabilities",
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "image_width": "third",
-        "columns_desktop": 3,
-        "heading_size": "h0",
         "color_scheme": "highlight",
+        "swipe_on_mobile": true,
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -432,7 +432,7 @@
             "heading": "Code & Engineering 🛠️",
             "text": "<p>Digital applications and engineering allow us to create circular or regenerative-digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p><p>Our capabilities include:</p><ul><li> Development</li><li>Integration</li><li>Automation</li><li>Security</li><li>Scalability</li></ul>",
             "button_label": "Learn more",
-            "button_link": "shopify://pages/product-engineering"
+            "button_link": "shopify://pages/technology"
           }
         }
       },
@@ -468,6 +468,6 @@
     "featured_product",
     "marquee1",
     "featured_collection_1",
-    "collapsible_content",
+    "collapsible_content"
   ]
 }
