@@ -1,0 +1,118 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multirow": {
+      "type": "multirow",
+      "blocks": {
+        "row0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash4.jpg",
+            "caption": "Partners For",
+            "heading": "Creative 💡",
+            "text": "<p>Large organizations want to function more like small startups. Small startups want to scale like large organizations. It's time to start thinking like a designer—focus on understanding your user's behaviors, needs, and motivations</p><p>Here at Studiocraft, we draw on stories, contexts, and cultures to crystalize truths that improve consumers’ lives, inspire teams, and grow businesses</p><p>Our capabilities include:<br/></p><ul><li>Ethnographic Interviews</li><li>In-Depth Interviews</li><li>Mobile Research</li><li>Digital Communities</li><li>Usability Research</li><li>Focus Groups</li></ul>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/reasearch-🔬"
+          }
+        },
+        "row1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash2.jpg",
+            "caption": "Partners For",
+            "heading": "Research 🔬",
+            "text": "<p>Large organizations want to function more like small startups. Small startups want to scale like large organizations. It's time to start thinking like a designer—focus on understanding your user's behaviors, needs, and motivations</p><p>Here at Studiocraft, we draw on stories, contexts, and cultures to crystalize truths that improve consumers’ lives, inspire teams, and grow businesses</p><p>Our capabilities include:<br/></p><ul><li>Ethnographic Interviews</li><li>In-Depth Interviews</li><li>Mobile Research</li><li>Digital Communities</li><li>Usability Research</li><li>Focus Groups</li></ul>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/reasearch-🔬"
+          }
+        },
+        "row2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash3.jpg",
+            "caption": "Experts In",
+            "heading": "Design 🎨",
+            "text": "<p>Communication, messaging, and tone all have differ roles—that together—formulate a perception and expectation for your users and customers</p><p>Here at Studiocraft, we strive to create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life</p><p>Our capabilities include:</p><ul><li>Design Strategy</li><li>User Experience</li><li>Design Systems</li><li>Visual Design</li><li>Digital Branding</li><li>Design Consulting</li></ul>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/design-creative"
+          }
+        },
+        "row3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash1.jpg",
+            "caption": "Consultancy With",
+            "heading": "Digital 💻",
+            "text": "<p>Digital applications and engineering allow us to create circular or regenerative-digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p><p>Our capabilities include:</p><ul><li> Development</li><li>Integration</li><li>Automation</li><li>Security</li><li>Scalability</li></ul>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/product-engineering"
+          }
+        },
+        "row4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash5.jpg",
+            "caption": "Partners For",
+            "heading": "Analog 🧮",
+            "text": "<p>Large organizations want to function more like small startups. Small startups want to scale like large organizations. It's time to start thinking like a designer—focus on understanding your user's behaviors, needs, and motivations</p><p>Here at Studiocraft, we draw on stories, contexts, and cultures to crystalize truths that improve consumers’ lives, inspire teams, and grow businesses</p><p>Our capabilities include:<br/></p><ul><li>Ethnographic Interviews</li><li>In-Depth Interviews</li><li>Mobile Research</li><li>Digital Communities</li><li>Usability Research</li><li>Focus Groups</li></ul>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/reasearch-🔬"
+          }
+        },
+        "row5": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash.jpg",
+            "caption": "Partners For",
+            "heading": "Craft ✨",
+            "text": "<p>Large organizations want to function more like small startups. Small startups want to scale like large organizations. It's time to start thinking like a designer—focus on understanding your user's behaviors, needs, and motivations</p><p>Here at Studiocraft, we draw on stories, contexts, and cultures to crystalize truths that improve consumers’ lives, inspire teams, and grow businesses</p><p>Our capabilities include:<br/></p><ul><li>Ethnographic Interviews</li><li>In-Depth Interviews</li><li>Mobile Research</li><li>Digital Communities</li><li>Usability Research</li><li>Focus Groups</li></ul>",
+            "button_label": "Learn more",
+            "button_link": "shopify://pages/reasearch-🔬"
+          }
+        },
+      },
+      "block_order": [
+        "row0",
+        "row1",
+        "row2",
+        "row3",
+        "row4",
+        "row5"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "highlight",
+        "row_color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+  },
+  "order": [
+    "main",
+    "multirow"
+  ]
+}

@@ -1,0 +1,365 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Apple",
+            "icon": "apple",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Banana",
+            "icon": "banana",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Bottle",
+            "icon": "bottle",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Box",
+            "icon": "box",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Carrot",
+            "icon": "carrot",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Chat Bubble",
+            "icon": "chat_bubble",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Check Mark",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Clipboard",
+            "icon": "clipboard",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Dairy",
+            "icon": "dairy",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Dairy Free",
+            "icon": "dairy_free",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_10": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Dryer",
+            "icon": "dryer",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_11": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Eye",
+            "icon": "eye",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_12": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fire",
+            "icon": "fire",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_13": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Gluten Free",
+            "icon": "gluten_free",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_14": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Heart",
+            "icon": "heart",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_15": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Iron",
+            "icon": "iron",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_16": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Leaf",
+            "icon": "leaf",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_17": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Leather",
+            "icon": "leather",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_18": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lightning Bolt",
+            "icon": "lightning_bolt",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_19": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lipstick",
+            "icon": "lipstick",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_20": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lock",
+            "icon": "lock",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_21": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Map Pin",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_22": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Nut Free",
+            "icon": "nut_free",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_23": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pants",
+            "icon": "pants",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_24": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Paw Print",
+            "icon": "paw_print",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_25": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pepper",
+            "icon": "pepper",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_26": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Perfume",
+            "icon": "perfume",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_27": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Plane",
+            "icon": "plane",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_28": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Plant",
+            "icon": "plant",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_29": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Price Tag",
+            "icon": "price_tag",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_30": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Question Mark",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_31": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Recycle",
+            "icon": "recycle",
+            "row_content": "",
+            "page": "about"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_0",
+        "collapsible_row_1",
+        "collapsible_row_2",
+        "collapsible_row_3",
+        "collapsible_row_4",
+        "collapsible_row_5",
+        "collapsible_row_6",
+        "collapsible_row_7",
+        "collapsible_row_8",
+        "collapsible_row_9",
+        "collapsible_row_10",
+        "collapsible_row_11",
+        "collapsible_row_12",
+        "collapsible_row_13",
+        "collapsible_row_14",
+        "collapsible_row_15",
+        "collapsible_row_16",
+        "collapsible_row_17",
+        "collapsible_row_18",
+        "collapsible_row_19",
+        "collapsible_row_20",
+        "collapsible_row_21",
+        "collapsible_row_22",
+        "collapsible_row_23",
+        "collapsible_row_24",
+        "collapsible_row_25",
+        "collapsible_row_26",
+        "collapsible_row_27",
+        "collapsible_row_28",
+        "collapsible_row_29",
+        "collapsible_row_30",
+        "collapsible_row_31"
+      ],
+      "settings": {
+        "caption": "Accordion Icons",
+        "heading": "Icons",
+        "heading_size": "h0",
+        "heading_alignment": "left",
+        "layout": "row",
+        "color_scheme": "",
+        "container_color_scheme": "subdued",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+  },
+  "order": [
+    "main",
+    "collapsible_content"
+  ]
+}

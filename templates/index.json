@@ -63,7 +63,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "💕 Some of the greatest goods & services on earth.",
+            "heading": "💕 Loved—some of the greatest goods & creative brands on earth.",
             "heading_size": "h1"
           }
         },
@@ -260,14 +260,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our focus is not on ourselves, but rather on what lies ahead.",
+            "heading": "We see, we feel, and we decide. Together we create. ",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>It revolves around the decisions we collectively make, as they will shape our future as a whole.</p><p>We see, we feel, and we decide. Together we create. Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing campaigns for artists and musicians? Or is it simply handmade tortillas?</p>"
+            "text": "<p>Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing campaigns for artists and musicians? Or is it simply handmade tortillas?</p><p>Our focus is not on ourselves, but rather on what lies ahead. It revolves around the decisions we collectively make, as they will shape our future as a whole.</p>"
           }
         },
         "button": {
@@ -334,7 +334,7 @@
         "description_style": "body",
         "collection": "sale-clearance",
         "products_to_show": 10,
-        "columns_desktop": 5,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "outline",
@@ -355,11 +355,19 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
+        "column0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash4.jpg",
+            "title": "Creative 💡",
+            "text": "<p>Digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p>"
+          }
+        },
         "column1": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash2.jpg",
-            "title": "Research & Strategy 🔬",
+            "title": "Research 🔬",
             "text": "<p>Learn how Stoducicraft can improve consumers’ lives, inspire teams, and grow businesses</p>"
           }
         },
@@ -367,7 +375,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash3.jpg",
-            "title": "Design & Creative 🎨",
+            "title": "Design 🎨",
             "text": "<p>Create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life</p>"
           }
         },
@@ -375,22 +383,42 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash1.jpg",
-            "title": "Code & Engineering 🛠️",
+            "title": "Digital 💻",
+            "text": "<p>Digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p>"
+          }
+        },
+        "column4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash5.jpg",
+            "title": "Analog 🧮",
+            "text": "<p>Handmade goods and products—sustainable tools and blundle kits.</p>"
+          }
+        },
+        "column5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash.jpg",
+            "title": "Craft ✨",
             "text": "<p>Digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p>"
           }
         }
       },
       "block_order": [
+        "column0",
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "column4",
+        "column5"
       ],
       "settings": {
-        "title": "What we do—our services & capabilities 🚀",
-        "heading_size": "h0",
+        "title": "Expert craft—services & capabilities 🚀",
+        "heading_size": "h1",
         "image_width": "third",
-        "image_ratio": "square",
-        "columns_desktop": 3,
+        "image_ratio": "circle",
+        "columns_desktop": 2,
+        "column_alignment": "center",
         "button_label": "Learn what we do ⚡️",
         "button_link": "shopify://pages/services-capabilities",
         "color_scheme": "highlight",
@@ -399,62 +427,91 @@
         "padding_bottom": 100
       }
     },
-    "multirow": {
-      "type": "multirow",
+    "slideshow": {
+      "type": "slideshow",
       "blocks": {
-        "row3": {
-          "type": "row",
+        "slide0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash4.jpg",
+            "heading": "Creative 💡",
+            "button_label": "Learn more",
+            "link": "shopify://pages/services-capabilities",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "color_scheme": "warning"
+          }
+        },
+        "slide1": {
+          "type": "slide",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash2.jpg",
-            "caption": "Partners For",
-            "heading": "Research & Strategy 🔬",
-            "text": "<p>Large organizations want to function more like small startups. Small startups want to scale like large organizations. It's time to start thinking like a designer—focus on understanding your user's behaviors, needs, and motivations</p><p>Here at Studiocraft, we draw on stories, contexts, and cultures to crystalize truths that improve consumers’ lives, inspire teams, and grow businesses</p><p>Our capabilities include:<br/></p><ul><li>Ethnographic Interviews</li><li>In-Depth Interviews</li><li>Mobile Research</li><li>Digital Communities</li><li>Usability Research</li><li>Focus Groups</li></ul>",
+            "heading": "Research 🔬",
             "button_label": "Learn more",
-            "button_link": "shopify://pages/strategy"
+            "link": "shopify://pages/research-🔬",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "color_scheme": "default"
           }
         },
-        "row1": {
-          "type": "row",
+        "slide2": {
+          "type": "slide",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash3.jpg",
-            "caption": "Experts In",
-            "heading": "Design & Creative 🎨",
-            "text": "<p>Communication, messaging, and tone all have differ roles—that together—formulate a perception and expectation for your users and customers</p><p>Here at Studiocraft, we strive to create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life</p><p>Our capabilities include:</p><ul><li>Design Strategy</li><li>User Experience</li><li>Design Systems</li><li>Visual Design</li><li>Digital Branding</li><li>Design Consulting</li></ul>",
+            "heading": "Design 🎨",
             "button_label": "Learn more",
-            "button_link": "shopify://pages/design"
+            "link": "shopify://pages/design-creative",
+            "button_style_secondary": false,
+            "color_scheme": "inverse"
           }
         },
-        "row2": {
-          "type": "row",
+        "slide3": {
+          "type": "slide",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash1.jpg",
-            "caption": "Consultancy With",
-            "heading": "Code & Engineering 🛠️",
-            "text": "<p>Digital applications and engineering allow us to create circular or regenerative-digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p><p>Our capabilities include:</p><ul><li> Development</li><li>Integration</li><li>Automation</li><li>Security</li><li>Scalability</li></ul>",
+            "heading": "Digital 💻",
             "button_label": "Learn more",
-            "button_link": "shopify://pages/digital"
+            "link": "shopify://pages/product-engineering",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "color_scheme": "positive"
+          }
+        },
+        "slide4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash5.jpg",
+            "heading": "Analog 🧮",
+            "button_label": "Learn more",
+            "link": "shopify://pages/handmade-goods",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "color_scheme": "subdued"
+          }
+        },
+        "slide5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash.jpg",
+            "heading": "Craft ✨",
+            "button_label": "Learn more",
+            "link": "shopify://pages/handmade-goods",
+            "button_style_secondary": false,
+            "color_scheme": "highlight"
           }
         }
       },
       "block_order": [
-        "row3",
-        "row1",
-        "row2"
+        "slide0",
+        "slide1",
+        "slide2",
+        "slide3",
+        "slide4",
+        "slide5"
       ],
       "settings": {
-        "image_height": "small",
-        "desktop_image_width": "small",
-        "heading_size": "h2",
-        "text_style": "body",
-        "button_style": "primary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "highlight",
-        "row_color_scheme": "inverse",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "slide_height": "small",
+        "slider_visual": "counter"
       }
     }
   },
@@ -462,12 +519,12 @@
     "image_banner",
     "marquee0",
     "rich_text",
-    "multicolumn",
     "featured_collection_0",
-    "multirow",
+    "slideshow",
     "featured_product",
     "marquee1",
     "featured_collection_1",
-    "collapsible_content"
+    "collapsible_content",
+    "multicolumn"
   ]
 }
