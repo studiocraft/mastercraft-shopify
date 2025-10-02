@@ -16,14 +16,14 @@
           "type": "heading",
           "settings": {
             "heading": "Welcome to Studiocraft 👋",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "text": "An independent, creative agency & design studio focusing on simplicity, sustainability, and human craft. And by the way—there's also a product shop.⤵",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "button": {
@@ -260,8 +260,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Studiocraft helps brands focus on simplicity, sustainability, and human craft 🌱",
-            "heading_size": "h2"
+            "heading": "Simplicity, sustainability, and human craft 🌱",
+            "heading_size": "h1"
           }
         },
         "text": {
@@ -289,7 +289,7 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "subdued",
         "full_width": true,
         "padding_top": 100,
@@ -355,7 +355,7 @@
         "enable_desktop_slider": true,
         "color_scheme": "",
         "image_ratio": "portrait",
-        "image_shape": "default",
+        "image_shape": "chevronright",
         "show_secondary_image": false,
         "show_vendor": true,
         "show_rating": true,
@@ -457,8 +457,8 @@
       "settings": {
         "title": "Services & capabilities—experts in craft 🚀.",
         "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "circle",
+        "image_width": "third",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
         "button_label": "Learn what we do ⚡️",
@@ -567,8 +567,8 @@
     "image_banner",
     "marquee0",
     "rich_text0",
-    "featured_collection_0",
     "slideshow",
+    "featured_collection_0",
     "rich_text1",
     "featured_product",
     "marquee1",

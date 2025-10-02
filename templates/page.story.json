@@ -1,0 +1,300 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "marquee0": {
+      "type": "marquee",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "💕 Love at first sight—only signature goods & the best brands on earth.",
+            "heading_size": "h1"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "OMG! Shop now 🛍️",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "ℹ️  Okay, but what else?",
+            "button_link_2": "shopify://pages/about",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "fire",
+        "speed": 25,
+        "direction": "right",
+        "padding_top": 100,
+        "padding_bottom": 100,
+      },
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Studiocraft 👋",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "A creative agency & shop focusing on simplicity, sustainability, and human craft.",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Products & goods 🛍️",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "Learn what we do ⚡️",
+            "button_link_2": "shopify://pages/services-capabilities",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/studiocraft-splash4.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "default",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text0": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Simplicity, sustainability, and human craft 🌱",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing campaigns for artists and musicians? Or is it simply handmade tortillas?</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Let's be friends 🤝",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "ℹ️ How it works",
+            "button_link_2": "shopify://pages/services-capabilities",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "ice",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash4.jpg",
+            "title": "Get creative 🔮",
+            "text": "<p>Need a new idea or want help with an exisiting one?</p>",
+            "link_label": "🎓 Learn how",
+            "link": "shopify://pages/creative",
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash2.jpg",
+            "title": "Explore & research 🔬",
+            "text": "<p>Learn how to improve consumers’ lives, inspire teams, and grow.</p>",
+            "link_label": "🛰️ Explore more",
+            "link": "shopify://pages/research",
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash3.jpg",
+            "title": "Be a better brand 🧬",
+            "text": "<p>Design experiences that fit into a user’s everyday life.</p>",
+            "link_label": "💅 Get more",
+            "link": "shopify://pages/brand",
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash1.jpg",
+            "title": "Go digital 💻",
+            "text": "<p>Set up digitally-native consumer products, services, and systems.</p>",
+            "link_label": "🏁 Get started",
+            "link": "shopify://pages/digital",
+          }
+        },
+        "column4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash5.jpg",
+            "title": "Be analog 🧮",
+            "text": "<p>Handmade goods and products—sustainable tools and blundle kits.</p>",
+            "link_label": "👀 See how",
+            "link": "shopify://pages/analog",
+          }
+        },
+        "column5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash.jpg",
+            "title": "Human craft ✨",
+            "text": "<p>Simple, sustainable and human crafted goods.</p>",
+            "link_label": "⚡️ Start the magic",
+            "link": "shopify://pages/services-capabilities",
+          }
+        }
+      },
+      "block_order": [
+        "column0",
+        "column1",
+        "column2",
+        "column3",
+        "column4",
+        "column5"
+      ],
+      "settings": {
+        "title": "Experts in craft—making the magic work 🪄",
+        "button_label": "Let's make it happen 🐿️",
+        "button_link": "shopify://pages/contact",
+        "swipe_on_mobile": true,
+        "image_ratio": "circle",
+        "image_width": "half",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "heading_size": "h2",
+        "color_scheme": "highlight",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "collapsible_content": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Studiocraft?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": "about"
+          }
+        },
+        "collapsible_row_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does Studiocraft do?",
+            "icon": "lightning_bolt",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What products do you offer?",
+            "icon": "price_tag",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are your policies?",
+            "icon": "clipboard",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_0",
+        "collapsible_row_1",
+        "collapsible_row_2",
+        "collapsible_row_3"
+      ],
+      "settings": {
+        "caption": "Studiocraft",
+        "heading": "Frequently asked questions",
+        "heading_size": "h0",
+        "heading_alignment": "left",
+        "layout": "row",
+        "color_scheme": "",
+        "container_color_scheme": "subdued",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+  },
+  "order": [
+    "main",
+    "rich_text0",
+    "collapsible_content",
+    "multicolumn",
+    "marquee0",
+    "image_banner"
+  ]
+}

@@ -207,12 +207,34 @@
           "shadow": "#111111"
         }
       },
+      "critical": {
+        "settings": {
+          "background": "#D5008F",
+          "background_gradient": "",
+          "text": "#FFFFFF",
+          "button": "#FFFFFF",
+          "button_label": "#FF41B4",
+          "secondary_button_label": "#FFFFFF",
+          "shadow": "#111111"
+        }
+      },
       "fire": {
         "settings": {
           "background": "#FF994E",
           "background_gradient": "",
           "text": "#001B44",
-          "button": "#612500",
+          "button": "#85144B",
+          "button_label": "#FFFFFF",
+          "secondary_button_label": "#001B44",
+          "shadow": "#111111"
+        }
+      },
+      "ice": {
+        "settings": {
+          "background": "#CDECFF",
+          "background_gradient": "",
+          "text": "#001B44",
+          "button": "#00449E",
           "button_label": "#FFFFFF",
           "secondary_button_label": "#001B44",
           "shadow": "#111111"
@@ -296,12 +318,34 @@
             "shadow": "#111111"
           }
         },
+        "critical": {
+          "settings": {
+            "background": "#D5008F",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#FFFFFF",
+            "button_label": "#FF41B4",
+            "secondary_button_label": "#FFFFFF",
+            "shadow": "#111111"
+          }
+        },
         "fire": {
           "settings": {
             "background": "#FF994E",
             "background_gradient": "",
             "text": "#001B44",
-            "button": "#612500",
+            "button": "#85144B",
+            "button_label": "#FFFFFF",
+            "secondary_button_label": "#001B44",
+            "shadow": "#111111"
+          }
+        },
+        "ice": {
+          "settings": {
+            "background": "#CDECFF",
+            "background_gradient": "",
+            "text": "#001B44",
+            "button": "#00449E",
             "button_label": "#FFFFFF",
             "secondary_button_label": "#001B44",
             "shadow": "#111111"
