@@ -14,25 +14,33 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement": {
+        "announcement0": {
           "type": "announcement",
           "settings": {
             "text": "🆕 Check out our latest merch!",
             "link": "shopify://collections/all"
           }
+        },
+        "announcement1": {
+          "type": "announcement",
+          "settings": {
+            "text": "⚡️ Find out more about Studiocraft",
+            "link": "shopify://collections/all"
+          }
         }
       },
       "block_order": [
-        "announcement"
+        "announcement0",
+        "announcement1"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "subdued",
         "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "show_social": true,
+        "auto_rotate": true,
+        "change_slides_speed": 4,
+        "enable_country_selector": true,
+        "enable_language_selector": true
       }
     },
     "header": {

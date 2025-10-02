@@ -16,7 +16,82 @@
         "padding_bottom": 28
       }
     },
-    "multirow": {
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash4.jpg",
+            "title": "Get creative 🔮",
+            "text": "<p>Need a new idea or want help with an exisiting one?</p>",
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash2.jpg",
+            "title": "Explore & research 🔬",
+            "text": "<p>Learn how to improve consumers’ lives, inspire teams, and grow.</p>",
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash3.jpg",
+            "title": "Be a better brand 🧬",
+            "text": "<p>Design experiences that fit into a user’s everyday life.</p>",
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash1.jpg",
+            "title": "Go digital 💻",
+            "text": "<p>Set up digitally-native consumer products, services, and systems.</p>",
+          }
+        },
+        "column4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash5.jpg",
+            "title": "Be analog 🧮",
+            "text": "<p>Handmade goods and products—sustainable tools and blundle kits.</p>",
+          }
+        },
+        "column5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash.jpg",
+            "title": "Human craft ✨",
+            "text": "<p>Handmade goods and products—sustainable tools and blundle kits.</p>",
+          }
+        }
+      },
+      "block_order": [
+        "column0",
+        "column1",
+        "column2",
+        "column3",
+        "column4",
+        "column5"
+      ],
+      "settings": {
+        "title": "Experts in craft—making the magic work 🪄",
+        "button_label": "Let's make it happen 🐿️",
+        "button_link": "shopify://pages/contact",
+        "swipe_on_mobile": true,
+        "image_ratio": "circle",
+        "image_width": "half",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "heading_size": "h0",
+        "color_scheme": "warning",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "multirow0": {
       "type": "multirow",
       "blocks": {
         "row0": {
@@ -24,10 +99,10 @@
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash4.jpg",
             "caption": "Partners For",
-            "heading": "Creative 💡",
+            "heading": "Creative 🔮",
             "text": "<p>Large organizations want to function more like small startups. Small startups want to scale like large organizations. It's time to start thinking like a designer—focus on understanding your user's behaviors, needs, and motivations</p><p>Here at Studiocraft, we draw on stories, contexts, and cultures to crystalize truths that improve consumers’ lives, inspire teams, and grow businesses</p><p>Our capabilities include:<br/></p><ul><li>Ethnographic Interviews</li><li>In-Depth Interviews</li><li>Mobile Research</li><li>Digital Communities</li><li>Usability Research</li><li>Focus Groups</li></ul>",
             "button_label": "Learn more",
-            "button_link": "shopify://pages/reasearch-🔬"
+            "button_link": "shopify://pages/creative"
           }
         },
         "row1": {
@@ -38,7 +113,7 @@
             "heading": "Research 🔬",
             "text": "<p>Large organizations want to function more like small startups. Small startups want to scale like large organizations. It's time to start thinking like a designer—focus on understanding your user's behaviors, needs, and motivations</p><p>Here at Studiocraft, we draw on stories, contexts, and cultures to crystalize truths that improve consumers’ lives, inspire teams, and grow businesses</p><p>Our capabilities include:<br/></p><ul><li>Ethnographic Interviews</li><li>In-Depth Interviews</li><li>Mobile Research</li><li>Digital Communities</li><li>Usability Research</li><li>Focus Groups</li></ul>",
             "button_label": "Learn more",
-            "button_link": "shopify://pages/reasearch-🔬"
+            "button_link": "shopify://pages/reasearch"
           }
         },
         "row2": {
@@ -46,12 +121,37 @@
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash3.jpg",
             "caption": "Experts In",
-            "heading": "Design 🎨",
+            "heading": "Brand 🧬",
             "text": "<p>Communication, messaging, and tone all have differ roles—that together—formulate a perception and expectation for your users and customers</p><p>Here at Studiocraft, we strive to create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life</p><p>Our capabilities include:</p><ul><li>Design Strategy</li><li>User Experience</li><li>Design Systems</li><li>Visual Design</li><li>Digital Branding</li><li>Design Consulting</li></ul>",
             "button_label": "Learn more",
-            "button_link": "shopify://pages/design-creative"
+            "button_link": "shopify://pages/brand"
           }
-        },
+        }
+      },
+      "block_order": [
+        "row0",
+        "row1",
+        "row2",
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "default",
+        "row_color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "multirow1": {
+      "type": "multirow",
+      "blocks": {
         "row3": {
           "type": "row",
           "settings": {
@@ -87,9 +187,6 @@
         },
       },
       "block_order": [
-        "row0",
-        "row1",
-        "row2",
         "row3",
         "row4",
         "row5"
@@ -102,17 +199,138 @@
         "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "highlight",
-        "row_color_scheme": "inverse",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "inverse",
+        "row_color_scheme": "subdued",
         "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 100
       }
     },
+    "marquee0": {
+      "type": "marquee",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "🔥 Fresh discounts on the nicest stuff brought by some of the best brands on earth.",
+            "heading_size": "h0"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Final sale! Clearance 🚨",
+            "button_link_1": "shopify://collections/sale-clearance",
+            "button_style_secondary_1": false,
+            "button_label_2": "ℹ️  Okay, but what else?",
+            "button_link_2": "shopify://pages/about",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "fire",
+        "speed": 25,
+        "direction": "left",
+        "padding_top": 100,
+        "padding_bottom": 100,
+      },
+    },
+    "marquee1": {
+      "type": "marquee",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "🌱 Grow into the brand you need to be.",
+            "heading_size": "h1"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Contact 📫",
+            "button_link_1": "shopify://pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "ℹ️  Learn more",
+            "button_link_2": "shopify://pages/about",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "highlight",
+        "speed": 25,
+        "direction": "right",
+        "padding_top": 100,
+        "padding_bottom": 100,
+      },
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Studiocraft 👋",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "A creative agency & shop focusing on simplicity, sustainability, and human craft.",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Products & goods 🛍️",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "Learn what we do ⚡️",
+            "button_link_2": "shopify://pages/services-capabilities",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/studiocraft-splash4.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "default",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
   },
   "order": [
+    "multicolumn",
     "main",
-    "multirow"
+    "marquee1",
+    "multirow0",
+    "marquee0",
+    "multirow1",
+    "image_banner",
   ]
 }

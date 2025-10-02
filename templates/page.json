@@ -15,9 +15,44 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    }
+    },
+    "marquee0": {
+      "type": "marquee",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "💕 Love at first sight—only signature goods & the best brands on earth.",
+            "heading_size": "h1"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "OMG! Shop now 🛍️",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "ℹ️  Okay, but what else?",
+            "button_link_2": "shopify://pages/about",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "fire",
+        "speed": 25,
+        "direction": "right",
+        "padding_top": 100,
+        "padding_bottom": 100,
+      },
+    },
   },
   "order": [
-    "main"
+    "main",
+    "marquee0"
   ]
 }

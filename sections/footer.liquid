@@ -82,11 +82,12 @@
                 {%- case block.type -%}
                   {%- when '@app' -%}
                     {% render block %}
+
                   {%- when 'text' -%}
-                    <div class="footer-block__details-content rte">
-                      {{ block.settings.subtext }}
+                    <div class="footer-block__details-content">
+                      <div class="rte">{{ block.settings.subtext }}</div>
                       {%- if block.settings.menu != blank -%}
-                        <ul class="footer-block__details-content list-unstyled">
+                        <ul class="list-unstyled">
                           {%- for link in block.settings.menu.links -%}
                             <li>
                               <a
@@ -100,6 +101,7 @@
                         </ul>
                       {%- endif -%}
                     </div>
+
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
@@ -115,6 +117,7 @@
                         {%- endfor -%}
                       </ul>
                     {%- endif -%}
+
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
                       {%- if settings.brand_image != blank -%}
@@ -146,6 +149,7 @@
                         {%- render 'social-icons', class: 'footer__list-social' -%}
                       {%- endif -%}
                     </div>
+
                   {%- when 'image' -%}
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                       {%- if block.settings.image != blank -%}

@@ -22,19 +22,19 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "A creative agency & shop focusing on simplicity, sustainability, and human craft.",
+            "text": "An independent, creative agency & design studio focusing on simplicity, sustainability, and human craft. And by the way—there's also a product shop.⤵",
             "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Products & goods 🛍️",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "Learn what we do ⚡️",
-            "button_link_2": "shopify://pages/services-capabilities",
-            "button_style_secondary_2": true
+            "button_label_1": "Buy some stuff 🛍️",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": true,
+            "button_label_2": "📚 Read the story",
+            "button_link_2": "shopify://pages/story",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -63,17 +63,17 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "💕 Loved—some of the greatest goods & creative brands on earth.",
+            "heading": "💕 Love at first sight—only signature goods & the best brands",
             "heading_size": "h1"
           }
         },
         "buttons": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop now 🛍️",
+            "button_label_1": "OMG! Shop now 🛍️",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
-            "button_label_2": "ℹ️  Learn more",
+            "button_label_2": "ℹ️  Okay, but what else?",
             "button_link_2": "shopify://pages/about",
             "button_style_secondary_2": true
           }
@@ -97,7 +97,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "🌎 Great discounts on some of the best goods on the planet.",
+            "heading": "🌎 Incredible discounts on some of the nicest stuff on earth.",
             "heading_size": "h1"
           }
         },
@@ -189,8 +189,8 @@
         "image_zoom": "lightbox",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 52,
-        "padding_bottom": 52
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "collapsible_content": {
@@ -254,31 +254,31 @@
         "padding_bottom": 36
       }
     },
-    "rich_text": {
+    "rich_text0": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "We see, we feel, and we decide. Together we create. ",
+            "heading": "Studiocraft helps brands focus on simplicity, sustainability, and human craft 🌱",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing campaigns for artists and musicians? Or is it simply handmade tortillas?</p><p>Our focus is not on ourselves, but rather on what lies ahead. It revolves around the decisions we collectively make, as they will shape our future as a whole.</p>"
+            "text": "<p>Will it be an eco-friendly music record from hemp and sugar? Is it sustainble marketing campaigns for artists and musicians? Or is it simply handmade tortillas?</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Let's find out together",
+            "button_label": "Let's be friends 🤝",
             "button_link": "shopify://pages/contact",
             "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "ℹ️ How it works",
+            "button_link_2": "shopify://pages/services-capabilities",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -296,6 +296,48 @@
         "padding_bottom": 100
       }
     },
+    "rich_text1": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "A few things featured from the store 🛍️",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Front page products—signature stuff only some people might have.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Homepage products 🌐",
+            "button_link": "shopify://collections/frontpage",
+            "button_style_secondary": false,
+            "button_label_2": "ℹ️ Who makes this stuff?",
+            "button_link_2": "shopify://pages/about",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "subdued",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "featured_collection_0": {
       "type": "featured-collection",
       "settings": {
@@ -305,8 +347,8 @@
         "show_description": true,
         "description_style": "body",
         "collection": "frontpage",
-        "products_to_show": 5,
-        "columns_desktop": 3,
+        "products_to_show": 7,
+        "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "link",
@@ -359,39 +401,39 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash4.jpg",
-            "title": "Creative 💡",
-            "text": "<p>Digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p>"
+            "title": "Get creative 🔮",
+            "text": "<p>Need a new idea or want help with an exisiting one?</p>"
           }
         },
         "column1": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash2.jpg",
-            "title": "Research 🔬",
-            "text": "<p>Learn how Stoducicraft can improve consumers’ lives, inspire teams, and grow businesses</p>"
+            "title": "Explore & research 🔬",
+            "text": "<p>Learn how to improve consumers’ lives, inspire teams, and grow.</p>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash3.jpg",
-            "title": "Design 🎨",
-            "text": "<p>Create design experiences that take into consideration not only how a product, service, or brand looks but also how it acts, feels, and fits into a user’s everyday life</p>"
+            "title": "Be a better brand 🧬",
+            "text": "<p>Design experiences that fit into a user’s everyday life.</p>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash1.jpg",
-            "title": "Digital 💻",
-            "text": "<p>Digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p>"
+            "title": "Go digital 💻",
+            "text": "<p>Set up digitally-native consumer products, services, and systems.</p>"
           }
         },
         "column4": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash5.jpg",
-            "title": "Analog 🧮",
+            "title": "Be analog 🧮",
             "text": "<p>Handmade goods and products—sustainable tools and blundle kits.</p>"
           }
         },
@@ -399,8 +441,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash.jpg",
-            "title": "Craft ✨",
-            "text": "<p>Digitally-native consumer products, services, and systems, providing shared value for society and the environment.</p>"
+            "title": "Human craft ✨",
+            "text": "<p>Handmade goods and products—sustainable tools and blundle kits.</p>"
           }
         }
       },
@@ -413,15 +455,15 @@
         "column5"
       ],
       "settings": {
-        "title": "Expert craft—services & capabilities 🚀",
+        "title": "Services & capabilities—experts in craft 🚀.",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "half",
         "image_ratio": "circle",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "button_label": "Learn what we do ⚡️",
         "button_link": "shopify://pages/services-capabilities",
-        "color_scheme": "highlight",
+        "color_scheme": "fire",
         "swipe_on_mobile": true,
         "padding_top": 100,
         "padding_bottom": 100
@@ -434,21 +476,23 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash4.jpg",
-            "heading": "Creative 💡",
-            "button_label": "Learn more",
-            "link": "shopify://pages/services-capabilities",
+            "heading": "Get creative 🔮",
+            "subheading": "Need a new idea or want help with an exisiting one?",
+            "button_label": "🎓 Learn how",
+            "link": "shopify://pages/creative",
             "button_style_secondary": false,
             "box_align": "middle-left",
-            "color_scheme": "warning"
+            "color_scheme": "highlight"
           }
         },
         "slide1": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash2.jpg",
-            "heading": "Research 🔬",
-            "button_label": "Learn more",
-            "link": "shopify://pages/research-🔬",
+            "heading": "Explore & research 🔬",
+            "subheading": "Learn how to improve consumers’ lives, inspire teams, and grow.",
+            "button_label": "🛰️ Explore more",
+            "link": "shopify://pages/research",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "color_scheme": "default"
@@ -458,9 +502,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash3.jpg",
-            "heading": "Design 🎨",
-            "button_label": "Learn more",
-            "link": "shopify://pages/design-creative",
+            "heading": "Be a better brand 🧬",
+            "subheading": "Design experiences that fit into a user’s everyday life.",
+            "button_label": "💅 Get more",
+            "link": "shopify://pages/brand",
             "button_style_secondary": false,
             "color_scheme": "inverse"
           }
@@ -469,9 +514,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash1.jpg",
-            "heading": "Digital 💻",
-            "button_label": "Learn more",
-            "link": "shopify://pages/product-engineering",
+            "heading": "Go digital 💻",
+            "subheading": "Set up digitally-native consumer products, services, and systems.",
+            "button_label": "🏁 Get started",
+            "link": "shopify://pages/digital",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "color_scheme": "positive"
@@ -481,9 +527,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash5.jpg",
-            "heading": "Analog 🧮",
-            "button_label": "Learn more",
-            "link": "shopify://pages/handmade-goods",
+            "heading": "Be analog 🧮",
+            "subheading": "Handmade goods and products—sustainable tools and blundle kits.",
+            "button_label": "👀 See how",
+            "link": "shopify://pages/analog",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "color_scheme": "subdued"
@@ -493,11 +540,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/studiocraft-splash.jpg",
-            "heading": "Craft ✨",
-            "button_label": "Learn more",
-            "link": "shopify://pages/handmade-goods",
+            "heading": "Human craft ✨",
+            "subheading": "Simple, sustainable and human crafted goods.",
+            "button_label": "⚡️ Start the magic",
+            "link": "shopify://pages/services-capabilities",
             "button_style_secondary": false,
-            "color_scheme": "highlight"
+            "color_scheme": "warning"
           }
         }
       },
@@ -510,7 +558,7 @@
         "slide5"
       ],
       "settings": {
-        "slide_height": "small",
+        "slide_height": "medium",
         "slider_visual": "counter"
       }
     }
@@ -518,9 +566,10 @@
   "order": [
     "image_banner",
     "marquee0",
-    "rich_text",
+    "rich_text0",
     "featured_collection_0",
     "slideshow",
+    "rich_text1",
     "featured_product",
     "marquee1",
     "featured_collection_1",

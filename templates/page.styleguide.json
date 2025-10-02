@@ -306,6 +306,15 @@
             "row_content": "",
             "page": "about"
           }
+        },
+        "collapsible_row_32": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Return",
+            "icon": "return",
+            "row_content": "",
+            "page": "about"
+          }
         }
       },
       "block_order": [
@@ -340,7 +349,8 @@
         "collapsible_row_28",
         "collapsible_row_29",
         "collapsible_row_30",
-        "collapsible_row_31"
+        "collapsible_row_31",
+        "collapsible_row_32"
       ],
       "settings": {
         "caption": "Accordion Icons",
@@ -357,9 +367,85 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash4.jpg",
+            "title": "Get creative 🔮",
+            "text": "<p>Need a new idea or want help with an exisiting one?</p>",
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash2.jpg",
+            "title": "Explore & research 🔬",
+            "text": "<p>Learn how to improve consumers’ lives, inspire teams, and grow.</p>",
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash3.jpg",
+            "title": "Be a better brand 🧬",
+            "text": "<p>Design experiences that fit into a user’s everyday life.</p>",
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash1.jpg",
+            "title": "Go digital 💻",
+            "text": "<p>Set up digitally-native consumer products, services, and systems.</p>",
+          }
+        },
+        "column4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash5.jpg",
+            "title": "Be analog 🧮",
+            "text": "<p>Handmade goods and products—sustainable tools and blundle kits.</p>",
+          }
+        },
+        "column5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/studiocraft-splash.jpg",
+            "title": "Human Craft ✨",
+            "text": "<p>Handmade goods and products—sustainable tools and blundle kits.</p>",
+          }
+        }
+      },
+      "block_order": [
+        "column0",
+        "column1",
+        "column2",
+        "column3",
+        "column4",
+        "column5"
+      ],
+      "settings": {
+        "title": "Services & capabilities—experts in craft. Making magic happen 🪄",
+        "button_label": "Learn what we do ⚡️",
+        "button_link": "shopify://pages/services-capabilities",
+        "swipe_on_mobile": true,
+        "image_ratio": "circle",
+        "image_width": "half",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "heading_size": "h0",
+        "color_scheme": "warning",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
   },
   "order": [
     "main",
-    "collapsible_content"
+    "collapsible_content",
+    "multicolumn"
   ]
 }

@@ -23,7 +23,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "💕 Love at first sight—only signature goods & the best brands",
+            "heading": "🔥 Get it while it's hot—discounted and final sale",
             "heading_size": "h1"
           }
         },
@@ -55,7 +55,8 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
+        "color_scheme": "inverse",
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": true,
@@ -66,11 +67,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    }
+    },
+    "featured_collection0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h0",
+        "description": "{{ section.settings.collection.description }}",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "sale-clearance",
+        "products_to_show": 10,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "fire",
+        "image_ratio": "portrait",
+        "image_shape": "chevronright",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
   },
   "order": [
-    "banner",
+    "featured_collection0",
     "marquee0",
-    "product-grid"
+    "product-grid",
+    "banner",
   ]
 }
